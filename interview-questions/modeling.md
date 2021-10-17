@@ -1,10 +1,22 @@
 # Modeling
 **What is long-format vs wide-format data?**  
 |Long Format|Wide Format|
-|---|---|
-| Here, each row of the data represents the one-time information of a subject. Each subject would have its data in different/ multiple rows. The data can be recognized by considering rows as groups.| Here, the repeated responses of a subject are part of separate columns.  The data can be recognized by considering columns as groups.|
+|--- | --- |
+| Here, each row of the data represents the one-time information of a subject. Each subject would have its data in different/ multiple rows.  The data can be recognized by considering rows as groups.  | Here, the repeated responses of a subject are part of separate columns.  The data can be recognized by considering columns as groups |  
+
+
 **What is regularisation in regression?**  
-A. A regularisation is a special type of regression where the coefficient estimates are constrained (or regularised) to zero. By doing this, it is possible to reduce the variance of the model while at the same time decreasing the sampling error. Regularisation is used to avoid or reduce overfitting. Overfitting happens when the model learns training data so well it undermines the model’s performance on new data. To avoid overfitting, Ridge or Lasso regularisations are usually used.
+A regularisation is a special type of regression where the coefficient estimates are constrained (or regularised) to zero. By doing this, it is possible to reduce the variance of the model while at the same time decreasing the sampling error. Regularisation is used to avoid or reduce overfitting. Overfitting happens when the model learns training data so well it undermines the model’s performance on new data. To avoid overfitting, Ridge or Lasso regularisations are usually used.
+
+**Whe should dimensionality reduction be performed?**  
+Highly dimensional data or the number of attributes exceed the number of training samples
+
+**Assumptions in Linear Regression**
+1. Sample data represents entire population
+2. Linear relationship exists between input and output
+3. Residual variance is same for any X value (homoscedasticity)
+4. Observations are i.i.d.
+5. Output is normally distributed for any input of X
 
 **Explain L1 and L2 Regularization?**
 L1 regularization adds the penalty term in the cost function by adding the absolute value of weight, while L2 regularization adds the squared value of weights in the cost function. L2 estimates mean, whilst L1 estimates median. It assists in feature selection by zeroing non-important features
@@ -33,7 +45,7 @@ Extra Tree Classifier: This technique gives you a score for each feature of the 
 Correlation Matrix: A table that displays the correlation of all the features against each other. Each cell in the table displays a correlation between two variables. We can use a threshold value to select the less correlated variables out of the dataset.
 Mutual Information: It is a classifier that generates the mutual information of each feature with respect to the dependent feature. The higher the information is relevant it is
 
-**How do you handle categorical data?**
+**How do you handle categorical data?**  
 One-hot encoding for nominal data, label encoding for ordinal features, or count encoding
 
 **How do we handle outliers?**  

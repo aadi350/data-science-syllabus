@@ -39,33 +39,33 @@ Normalize data using $z = \frac{\bar{x}-\mu_{0}}{\sigma/n}$
 
 ### Testing a Mean  
 Assuming data is i.i.d. Normal:
-$t_0 = frac{\bar{x}-\mu_0}{s/\sqrt{n}}$  
-*where $\bar{x}$ is the mean of the data, and $\mu_0$ is the mean tested against
+$$t_0 = \frac{\bar{x}-\mu_0}{s/\sqrt{n}}$$  
+*where $\bar{x}$ is the mean of the data, and $\mu_0$ is the mean tested against*
 
 ### Testing Standard Deviation  
 Assuming data is i.i.d Normal:  
-$\chi^2 = \frac{(n-1)s^2}{\sigma^2}$  
+$$\chi^2 = \frac{(n-1)s^2}{\sigma^2}$$  
 *where $s$ is the sample standard deviation*  
 
 ### Testing Proportions  
 Assuming $np_0(1-p_0)\geq 10$    
-$z_0 = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}$
+$$z_0 = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}$$
 
 ### Difference of Means
 *Assume normally distributed samples*  
 
 **Independent Samples**  
-**Welch's t-test** 
+*Welch's t-test* 
 
-$t = \frac{\bar{x}_{2}-\bar{x}_{1}}{\sqrt{\frac{\sigma_{1}^{2}}{n_{1}}-\frac{\sigma_{2}^{2}}{n_{2}}}}$ 
+$$t = \frac{\bar{x}_{2}-\bar{x}_{1}}{\sqrt{\frac{\sigma_{1}^{2}}{n_{1}}-\frac{\sigma_{2}^{2}}{n_{2}}}}$$
 
 **Paired/Dependent Samples**  
 Difference in means are taken followed by t-test    
-$t = \frac{\bar{d}}{s_d/\sqrt{n}}$ 
+$$t = \frac{\bar{d}}{s_d/\sqrt{n}}$$
 
 
 **Difference in binomial populations**  
-$z = \frac{\hat{p_{1}}-\hat{p_{2}}}{\sqrt{\frac{p_{1}q_{1}}{n_{1}}}-\frac{p_{2}q_{2}}{n_{2}}}$
+$$z = \frac{\hat{p_{1}}-\hat{p_{2}}}{\sqrt{\frac{p_{1}q_{1}}{n_{1}}}-\frac{p_{2}q_{2}}{n_{2}}}$$
 
 
 **Kolmogorov-Smirnov Test**  
@@ -81,7 +81,7 @@ $$\text{Cohen's } d= \frac{|\mu - \mu'|}{\sigma}$$
 ### Difference in Standard Deviation 
 **Fisher's F**  
 This is a right-skewed distribution, which depends on the degrees-of-freedom afforded to it  
-$F = \frac{s^2_1}{s^2_2}$
+$$F = \frac{s^2_1}{s^2_2}$$
 
 Hypothesis testing measures statistical significance, importance measures by how much
 
@@ -133,7 +133,7 @@ Take statistic $\frac{s^{2}_{1}}{s^{2}_{1}}\thicksim F$
 ### Testing for Indepdence  
 *Determines whether ther is an association between a row and column variable in a contingency table constructed from sample data, which aims to reject the null hypothesis that they are unrelated*  
 
-$\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$  
+$$\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$$  
 **O** represents the observed number of counts in the *ith* table cell  
 **E** represents the expected number of counts in the *ith* table cell  
 
@@ -152,7 +152,7 @@ Tests difference in dependent samples
 Order all results and assign a 'rank' depending on value (if readings are 2,4,6 the ranks for 2=1, 4=2, 6=3 and so on)  
 Find $T_{1} = \text{Sum of the ranks for the first sample}$ then
 
-$T_{1}^{*}= n_{1}(n_{1}+n_{2}+1)-T_{1}$
+$$T_{1}^{*}= n_{1}(n_{1}+n_{2}+1)-T_{1}$$
 
 $n_{1}$ always chosen smaller, if $T_{1}^{*}$ is less than critical value, reject null, two-tailed test statistic is $min(T_{1}^{*}, T_{1})$
 

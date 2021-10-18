@@ -1,6 +1,18 @@
 # DELETE vs TRUNCATE
 Delete removes a table row, and can be rolledback, Truncate deletes all rows and cannot be rolled back  
 
+# Triggers  
+Special stored procedures defined to execute automatically in place or after data modifications.  
+```SQL 
+TRIGGER trigger_name
+  triggering_event
+  [ trigger_restriction ]
+BEGIN
+  triggered_action;
+END;
+```  
+
+
 # Constraints  
 This is an optional part of a ```SQL CREATE`` or ```SQL ALTER``` statement, it enforces a rule to which data must conform  
 ## Column Constraints  

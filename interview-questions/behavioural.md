@@ -79,6 +79,17 @@ Given your series of tasks and the result, what did you learn, and what would yo
 - What are the positive traits or characteristics you possess that will serve you well in this role?  
 - Is there something unique about your background that makes you stand out from other applicants?
 
+#### Template for Answering  
+*From Adam Broda*   
+My name is ________, and I'm a life-long learner, passionate about using new, and innovative technology to positively impact the lives of others. I'm a strong researcher who loves data analytics and failing fast.
+Over the last ______ years I've been growing, and honing my skills as a ________ manager and people leader; with experience building and releasing ______ different public-facing _______; now with over ______ users worldwide.
+I've managed _______ diverse, cross-functional teams, and have personally taken a stake in improving organizational diversity and inclusion by creating career development programs for underrepresented minorities.
+I've always wanted to work for the _______ Company because they prioritize innovation, collaboration, and hire the best and brightest creators.
+My dream is to work in a highly collaborative and inventive environment surrounded by like-minded, high functioning buiders. I believe _______ is where I can do my best work, and create the most value.
+Outside of work I enjoy ______, and spending time _______. It's important for me to have creative chanels separate from my profesion, and it's great to be able to give back to ________ at the same time.
+I'm really grateful for the opportunity to interview today and excited to learn more about how ________ works during this process."
+
+
 ### Why do you want to work here?  
 1. Research th company (especially the "About Us" sectino of their website)
 2. Review their social media accounts  

@@ -1,4 +1,4 @@
-## Bias-Variance Tradeoff  
+# Bias-Variance Tradeoff  
 The rror of a given model using squared-error loss cann be thought of as
 $$
 Err(x_0) = \text{Irreducible Error} + \text{Bias}^2 + \text{Variance}
@@ -24,7 +24,7 @@ Both AIC and *BIC* (or *Schwarz criterion*) are applicable where fitting is carr
 *Minimum-Description-Length* derived as a result of Occam's Razor, which favours simpler models. The best hypothesis to describe data is the one that compresses it the most
 
 
-#### Overfitting and Underfitting
+# Overfitting and Underfitting
 In overfitting, a statistical model describes random error or noise instead of the underlying relationship.
 Overfitting occurs when a model is excessively complex, such as having too many parameters relative to
 the number of observations. A model that has been overfitted, has poor predictive performance, as it
@@ -41,7 +41,7 @@ overreacts to minor fluctuations in the training data.
 8. Early stopping   
 
 
-**How to address underfitting**  
+**Addressing Underfitting**  
 1. Add features  
 2. Increase training time  
 3. Increase model complexity  
@@ -65,6 +65,8 @@ Space is saved on disk
 Upweighting ensures outputs can still be interpretted as probabilities
 
 **Disadvantages**  
+Important information may be left out  
+Less data may result in less generalizability of the model  
 
 
 #### Upweighting  
@@ -75,7 +77,7 @@ Resampling is a methodology of economically using a data sample to improve the a
 
 This is done to estimate the accuracy of sample statistics, to sample labels on data points and validating models on random subsets
 
-**Bootstrap**  
+#### Bootstrap
 Samples are drawn from the dataset with replacement (allowing the same sample to appear more than once in the sample), where those instances not drawn into the data sample may be used for the test set.
 
 #### k-Fold Cross Validation  
@@ -83,4 +85,5 @@ A dataset is partitioned into k groups, where each group is given the opportunit
 
 **Choosing K**  
 With $K=N$, the estimator is unbiased but exhibits high variance and highlu computationally complex. Lower *K* values exhibit lower variance by higher bias.  
+Cross-validation is carried out *after* feature-selection.
 **Rule of thumb is to use 5- or 10-fold CV*

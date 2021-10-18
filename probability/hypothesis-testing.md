@@ -34,7 +34,22 @@ Test defined by **null** and **alternative** hypotheses $H_{0}$ and $H_{1}$
 
 
 ## Large-Sample Tests
-Normalize data using $z = \frac{\bar{x}-\mu_{0}}{\sigma/n}$
+Normalize data using $z = \frac{\bar{x}-\mu_{0}}{\sigma/n}$ 
+
+
+### Testing a Mean  
+Assuming data is i.i.d. Normal:
+$t_0 = frac{\bar{x}-\mu_0}{s/\sqrt{n}}$  
+*where $\bar{x}$ is the mean of the data, and $\mu_0$ is the mean tested against
+
+### Testing Standard Deviation  
+Assuming data is i.i.d Normal:  
+$\chi^2 = \frac{(n-1)s^2}{\sigma^2}$  
+*where $s$ is the sample standard deviation*  
+
+### Testing Proportions  
+Assuming $np_0(1-p_0)\geq 10$    
+$z_0 = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}$
 
 ### Difference of Means
 *Assume normally distributed samples*  
@@ -49,7 +64,6 @@ Difference in means are taken followed by t-test
 $t = \frac{\bar{d}}{s_d/\sqrt{n}}$ 
 
 
-
 **Difference in binomial populations**  
 $z = \frac{\hat{p_{1}}-\hat{p_{2}}}{\sqrt{\frac{p_{1}q_{1}}{n_{1}}}-\frac{p_{2}q_{2}}{n_{2}}}$
 
@@ -60,6 +74,10 @@ Takes maximum separation between cdfs, compares this distance to a particular ta
 Fewer technical assumptions than t-testing  
 Can be used to test normality
 
+**Cohen's D Test**  
+Gives magnitude of difference between two means  
+$$\text{Cohen's } d= \frac{|\mu - \mu'|}{\sigma}$$
+
 ### Difference in Standard Deviation 
 **Fisher's F**  
 This is a right-skewed distribution, which depends on the degrees-of-freedom afforded to it  
@@ -67,14 +85,11 @@ $F = \frac{s^2_1}{s^2_2}$
 
 Hypothesis testing measures statistical significance, importance measures by how much
 
-### Quantifying Importance
-$$\text{Cohen's } d= \frac{|\mu - \mu'|}{\sigma}$$
 
 ### Measures of Explained Variance
 **Pearson's $\bold{r^2}$**  
 Square of correlation measures proportion of explained variance  
 Assumes linear correlation, will not measure strenght of nonlinear relationships 
-
 
 
 ## Small-Sample
@@ -89,13 +104,7 @@ Robust to non-normality, results do not vary very much
 
 $t = \frac{\bar{x}-\mu}{s/\sqrt{n}}$
 
-Null is rejected when $t > t_{\alpha}$ (or $t < -t_{\alpha}$ when alternative hypothesis is $\mu < \mu_{0}$
-For two-tailed $t > t_{\alpha/2}\text{ or } t > t_{\alpha/2}$  
-Confidence Interval for $\mu$ is $\bar{x} \pm t_{\alpha/2}\frac{s}{\sqrt{n}}$
-
-#### Difference of Means 
-**Pooled Variance**
-
+**Pooled Variance**  
 Assume common variance, normal, independent populations, randomly sampled  
 *Pooled* variance (weighted by size of population) used to calculate standard error  
 t-statistic using pooled variance and difference, dof is sum of number of samples minus 2
@@ -103,52 +112,53 @@ t-statistic using pooled variance and difference, dof is sum of number of sample
 
 CI for difference is $\bar{x}_{1}-\bar{x}_{2}\pm \sqrt{s^{2}\left(\frac{1}{n_{2}}+\frac{1}{n_{2}}\right)}$
 
----
 
-**Paired Difference**
-
+**Paired Difference**  
 Assume dependent samples, pairing/blocking done before expierment
 
 $$t = \frac{\bar{d}}{s_{d}\sqrt{n}}$$
 
 CI for paired difference is $\bar{d}\pm t_{\alpha/2}\left(\frac{s_{d}}{\sqrt{n}}\right)$
 
-**Testing for Variance**
-
+### Testing for Variance
 Assume sample randomly selected from normal
-
 Null hypothesis is $\sigma^{2} = \sigma^{2}_{0}$
 
-Reject null when statistic $\chi^{2} = \frac{(n-1)s^{2}}{\sigma_{0}^{2}}$ greater than $\chi^{2}_{\alpha}$ (or less than $\chi^{2}_{1-\alpha}$ ) for one-tailed, two tailed replaces $\alpha$ with $\alpha/2$
 
-CI for variance is $\frac{(n-1)s^{2}}{\chi^{2}_{\alpha/2}} < \sigma^{2} < \frac{(n-1)s^{2}}{\chi^{2}_{1-\alpha/2}}$
-
-**Testing for Difference in Variances**
-
+### Testing for Difference in Variances
 Assume random independent samples, measurements share a common variance
 
 Take statistic $\frac{s^{2}_{1}}{s^{2}_{1}}\thicksim F$
 
+### Testing for Indepdence  
+*Determines whether ther is an association between a row and column variable in a contingency table constructed from sample data, which aims to reject the null hypothesis that they are unrelated*  
+
+$\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$  
+**O** represents the observed number of counts in the *ith* table cell  
+**E** represents the expected number of counts in the *ith* table cell  
+
+---
+
 ## Non-parametric Tests
 
-For data are ranks or scales (e.g. a 1-5 rating) and do not satisfy the normality assumption
+For data are ranks or scales (e.g. a 1-5 rating) and do not satisfy the normality assumption, however they do require that sample is random, and tend to have less **power** than parametric tests
 
-**Wilcoxon Rank-Sum Test**
 
-Tests difference in populations
+**Mann-Whitney Test**  
+Tests for difference in independent samples  
 
-Order all results and assign a 'rank' depending on value (if readings are 2,4,6 the ranks for 2=1, 4=2, 6=3 and so on)
-
+**Wilcoxon Rank-Sum Test**  
+Tests difference in dependent samples 
+Order all results and assign a 'rank' depending on value (if readings are 2,4,6 the ranks for 2=1, 4=2, 6=3 and so on)  
 Find $T_{1} = \text{Sum of the ranks for the first sample}$ then
 
 $T_{1}^{*}= n_{1}(n_{1}+n_{2}+1)-T_{1}$
 
 $n_{1}$ always chosen smaller, if $T_{1}^{*}$ is less than critical value, reject null, two-tailed test statistic is $min(T_{1}^{*}, T_{1})$
 
-**Sign Test**
-
-Assume paired observations
-
-Statistic is number of times that measurements for population A exceeds B, remove all equal measurements from data
-
+**Sign Test**  
+*Tests on the median for data from a non-symmetric distribution*
+Assume paired observations  
+Statistic is number of times that measurements for population A exceeds B, remove all equal measurements from data  
 Testing to see probability of rejection exceeding not equal to 0.5, since we expect on average, half of the A's measurements to exceed B
+

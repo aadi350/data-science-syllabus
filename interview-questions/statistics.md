@@ -41,6 +41,15 @@ our 7 equal outcomes we have to reduce this 36 to a number divisible by 7. We ca
 outcomes and exclude the other one. A simple scenario can be to exclude the combination (6,6), i.e., to
 roll the die again if 6 appears twice. All the remaining combinations from (1,1) till (6,5) can be divided into 7 parts of 5 each. This way all the seven sets of outcomes are equally likely
 
+**How would you determine if two factors are dependent from a contingency table?**  
+Step 1  
+Compute the row and column totals.  
+Step 2 Compute the relative marginal frequencies for the row variable and column   variable.
+Step 3  
+Use the Multiplication Rule for Independent Events to compute the expected proportion of observations within each cell, assuming independence.  
+Step 4  
+Multiply the proportions by 2985, the sample size, to obtain the expected counts within each cell  
+Follow this by carrying out the $\chi^2$ test for parameter independence  
 
 # Graphs
 **Differentiate between box plot and histogram**  

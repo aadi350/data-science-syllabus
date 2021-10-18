@@ -15,7 +15,7 @@ overreacts to minor fluctuations in the training data.
 8. Early stopping   
 
 
-**Addressing underfitting**  
+**How to address underfitting**  
 1. Add features  
 2. Increase training time  
 3. Increase model complexity  

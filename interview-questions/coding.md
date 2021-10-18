@@ -27,5 +27,5 @@ SELECT
   1- (new_users / all_users::decimal) as share_existing_users
 FROM all_users au
 JOIN new_users nu ON nu.month = au.month
-
 ```
+[SQL Questions from Google and Amazon](https://www.nicksingh.com/posts/30-sql-and-database-design-questions-from-real-data-science-interviews)

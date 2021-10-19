@@ -72,21 +72,43 @@ Newtork vendor for fibre-to-the-home, business and rolling out over 7000km of ca
 *The thing that makes the brand unique and helps it compete in the market*
 # Culture  
 *How they talk about the workplace on social media*  
+
+# Applications of ML  
+- Network optimization optimizing network KPIs and service KPIs, optimized for each markey's specific apps and services  
+- ANomaly detection, root cause identification, predictive maintenance  
+- Ticket classification, SLA assurance  
+- Chatbots for customer service (built on ANA)  
+- Predictive maintenance for hardware monitoring node behaviour  
+**For Networks**  
+- Self healing, dynamic optimization, automated network design  
+
 # Important Employee Bios  
 #### CEO  
-Oliver Coughlan  
+**Oliver Coughlan**  
 First joined in 2014 after leaving the first regional and integrated telco services comapny in asia, was CTO at Esat Digifone, lectured in Electrical Engineering for 5 years  
 
 #### CIO 
-Sjoerd Geels  
+**Sjoerd Geels**  
 CEO of Tlenor handling shared service delivery, HR, vendor management, strategy, perviously worked at Cognizant  
 
 #### CTO  
-Kirshna Phillipps  
+**Krishna Phillipps**  
 Focus on network efficiencies and superior customer experience  
 Jamaican national  
 Joined in 2004
 # Latest News 
+
+# Business Metrics  
+## Network Related  
+**Network Performance**  
+Availability, accessibilty, capacity, utilization, speed, latency, etc as these can impact CX, churn and impact the bottom line  
+
+**Newtork Operating Cost**  
+Infrastrcture, IT upgrades, app matinenace, customer technical support, etc.  
+
+
+
+--- 
 
 # Job Description 
 About Digicel

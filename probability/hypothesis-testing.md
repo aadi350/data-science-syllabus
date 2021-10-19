@@ -34,6 +34,8 @@ Test defined by **null** and **alternative** hypotheses $H_{0}$ and $H_{1}$
 
 
 ## Large-Sample Tests
+A **z-score** indicates how many standard deviations away from a sample mean a given data point lies  
+
 Normalize data using $z = \frac{\bar{x}-\mu_{0}}{\sigma/n}$ 
 
 

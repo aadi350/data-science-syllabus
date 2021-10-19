@@ -4,14 +4,48 @@
 Go digital with digicel  
 Journey to bring a digital lifestyle to customers  
 Keep up to speed with customers but in a simple way
+
+## Culture  
+Forward-thinking, fast-paced and innovative  
+
+
 # Services  
 - Three main categories: 
     *Mobile* (Digicel),  
     *Cable and TV Broadband* (Digicel+),    *Business Solutions*   
 
+## Mobile  
+- Mobile device management with monitoring, security, etc
+
+## ICT  
+**Cloud Applications**: Hosted Exchange Servers, Office 365, with nightly bacups, server management
+**DRaaS**: Disaster Recovery as-a-Service in hurricane-proof datacenters, redundancy, 
+**IoT**: Vehicle tracking, asset tracking with automatic crash detection, speed, aggressive driving, etc (real-time analytics)
+
+**Broadband**: business internet  
+**Netro Ethernet**: connecting nations  
+**IPLC/MPLS**:  Interinational Prvivate Leased Circuit, Multiprotocol Label Swtiching 
+
+**PaaS**: Provided by Oracle 
+
+### Managed Network Solutions  
+**Managed WiFi**  
+**Managed WAN**  
+**Managed LAN**
+
 # Products
 - 13.2 Million customers  across 32 countries  in the Caribbean
 -  40.2 million worldwide (including Asia-Pacific)
+
+## Smart Home  
+- 4 Tiers for Home  
+- WiFi cameras, doorbell cameras 
+- Door, Window, Motion, Flood, Smoke detector sensors  
+- Smar light swtich, plug, personal panic device, flood light with IR  
+- Mesh network WiFi
+
+## TV  
+- On-Demand, Multi-Screen, VCR features 
   
 ## Mobile Apps  
 **MyDigicel**: unified mobile app to manage all Digicel account data  
@@ -25,6 +59,9 @@ Keep up to speed with customers but in a simple way
 
 ## Acqusitions  
 # Business Partners  
+### Actavo  
+Newtork vendor for fibre-to-the-home, business and rolling out over 7000km of cablin with more than 225,000 homes passed
+
 ### DigicelFoundation  
 **Vision**: At the Digicel Foundation we aim to invest in sustainable development programmes for the sole purpose of building stronger more resilient communities in the countries where we operate. 
 

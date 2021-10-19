@@ -1,6 +1,13 @@
 # General Tips  
 - Match your language to the voice and image of the brand  
 
+# Things to Ask the Interviewer  
+1. What is the company culture like?
+2. Is there an opportunity for growth in this role?
+3. How do you measure employee performance?
+4. What is the most challenging aspect of the position?
+5. What do you enjoy most about working with this company? 
+
 # Researching the Organization  
 *From Grokking the Behavioural Interview*  
 - Look into mission statement, history, products, services, culture and pay attention to the *tone*  

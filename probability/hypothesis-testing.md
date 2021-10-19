@@ -162,3 +162,27 @@ Assume paired observations
 Statistic is number of times that measurements for population A exceeds B, remove all equal measurements from data  
 Testing to see probability of rejection exceeding not equal to 0.5, since we expect on average, half of the A's measurements to exceed B
 
+# One-Way ANOVA  
+$$
+F_0 = \frac{\text{Between-sample variability}}{\text{Within-sample variability}}
+$$
+## Randomized Design  
+A single factor is manipulated and fixed at 
+different levels. The experimental units are then randomly assigned to one of the factor 
+levels, or treatments
+### Comparing Three or More Means  
+Attempts to reject the null hypothesis that no means are different  
+**Requirements**  
+1. *k* simple random samples from each of *k* populations (or a randomized experiment with *k* treatments)  
+2. Samples must be independent  
+3. Populations must have common variance and be *iid* Normal  
+
+### Tukey Test  
+Determines *which* mean is different following a one-way ANOVA  
+Tests each mean against every other mean  using the $q$ *Studentized range distribution*  
+
+## Randomized Complete Block Design  
+For three or more treatments, RCBD is used to randomize so any effects not identified or uncontrollable are minimized  
+**Requirements**  
+1. Response variable for each population must be iid normal  
+2. Common variances

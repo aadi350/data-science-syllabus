@@ -122,8 +122,38 @@ I'm really grateful for the opportunity to interview today and excited to learn 
 - What your strengths may be  
 - What interests you personally and professionally  
 
+### What can you contribute to this company?  
+Showcase how I see myself fitting into company culture, personal approach to working with others, strength of work ethic.  
+1. Describe past project successes and skills  
+2. Discuss skills using actionable examples  
+*e.g. One of my roles in human resources was to help facilitate problem-solving between conflicting co-workers. I developed and trained all employees on a program with conflict resolution techniques. We had a lot of success in resolving some long-standing interpersonal problems*  
+3. Show how skills fit into company and job. Show **vision** for the job, and how past experiences prepare you for this 
+
+### What Skills Would You Bring to the Job?  
+1. Match your skills to things the company prides itself on  and what is listed on the job  
+2. Using **STAR-I**, describe how strengths were used in the past.  
+*e.g. I think I'm very good at adapting to a constantly changing environment and being able to start from ground zero...e.g.* 
+#### Traits that may be helpful  
+- Integrity  
+- Work ethic  
+- Communicative  
+- Flexible  
+- Ambitious/Independent  
+- Adaptable  
+
+
+
 ### What motivates you?  
 1. Employers want to know whether your sources of motivation align with the role 
 2. Employers want to determine whether you are self-aware enough to know what drives you
 
-[Link to Strengths and Weaknesses on Indeed](https://www.indeed.com/career-advice/interviewing/interview-question-what-are-your-strengths-and-weaknesses)
+### Weaknesses  
+**Self Critical**  
+I can be too critical of myself. A pattern I’ve noticed throughout my career is that I often feel I could have done more, even if objectively, I’ve done well. Earlier in my career, this led to burnout and negative self-talk. Follow with how I improved
+
+## Strengths  
+**Persistence**  
+I’m thorough and tenacious. When I’m on a project, I keep track of the details. Because I have a comprehensive understanding of the components, I can spot the essentials and rigorously advocate for them to meet deadlines. I regularly see this reflected in my peer and management feedback.  
+
+**Organizational Skills**  
+I’m highly organized, and I’ve applied my natural skill for organizing people and projects to all aspects of my work. After seven years of working as a project manager, I’ve had only one late product launch. From that experience, which took place three years ago, I learned a crucial lesson about trade-offs.

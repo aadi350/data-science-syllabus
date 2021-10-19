@@ -15,3 +15,6 @@ No learning is required
 - Computational complexity increases exponential to size of dataset, kNN can be made stochastic by taking a random sample from the dataset to make predictions  
 - Struggles in high-dimensional space  
 - Performs best in normalized data
+
+# Random Forest  
+<p style="color:red"># TODO</p>

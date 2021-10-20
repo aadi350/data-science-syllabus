@@ -1,3 +1,6 @@
+# Curse of Dimensionality  
+Most points in a high-dimensional hypercube are very close to the border, and the average distance increases as the number of dimensions go up. High-dimensional datasets are the risk of being very sparse, as most training instances will be very far each other meaning models fail to generalize adequately.
+
 # Dimensionality Reduction  
 ## Projection  
 When training instances lie within a lower-dimensional subspace, these can be mapped by *projecting* onto this subspace. 

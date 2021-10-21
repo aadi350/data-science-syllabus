@@ -22,3 +22,9 @@ Share what I have to offer,
 - Can you tell me more about the company?  
 - Why did you choose to pursue your current role?  
 - What qualities are needed to be successful in this role?   
+
+# Best Practices  
+- Keep it concise (30-90 seconds)  
+- Keep details relevant to the role/setting  
+- Highlight shared interests  
+- Ke

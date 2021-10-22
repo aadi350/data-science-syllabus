@@ -5,20 +5,20 @@ Data Manipulation Language(DML) – It allows you to access and manipulate data.
 Data Control Language(DCL) – It allows you to control access to the database. Example – Grant, Revoke access permissions.  
 
 **What is an ACID transaction?**  
-In the context of transaction processing, the acronym ACID refers to the four key properties of a transaction: atomicity, consistency, isolation, and durability.  
+A transaction is any operation that is treated as a single unit of work, which either completes fully or does not complete at all, and leaves the storage system in a consistent state.  
+In the context of transaction processing, the acronym ACID refers to the four key properties of a transaction: atomicity, consistency, isolation, and durability. To ensure *ACID*, changes must be committed or rolled back.When a transaction completes normally, a transaction processing system commits the changes made to the data; that is, it makes them permanent and visible to other transactions.When a transaction does not complete normally, the system rolls back (or backs out) the changes; that is, it restores the data to its last consistent state.
 
-Atomicity  
-All changes to data are performed as if they are a single operation. That is, all the changes are performed, or none of them are.  
-For example, in an application that transfers funds from one account to another, the atomicity property ensures that, if a debit is made successfully from one account, the corresponding credit is made to the other account.  
-Consistency  
-Data is in a consistent state when a transaction starts and when it ends.  
-For example, in an application that transfers funds from one account to another, the consistency property ensures that the total value of funds in both the accounts is the same at the start and end of each transaction.  
-Isolation  
-The intermediate state of a transaction is invisible to other transactions. As a result, transactions that run concurrently appear to be serialized.  
-For example, in an application that transfers funds from one account to another, the isolation property ensures that another transaction sees the transferred funds in one account or the other, but not in both, nor in neither.  
-Durability
+#### Atomicity  
+Each statement in a transaction (to read, write, update or delete data) is treated as a single unit. Either the entire statement is executed, or none of it is executed. This property prevents data loss and corruption from occurring if, for example, if your streaming data source fails mid-stream
+#### Consistency  
+Ensures that transactions only make changes to tables in predefined, predictable ways. Transactional consistency ensures that corruption or errors in your data do not create unintended consequences for the integrity of your table.
+#### Isolation  
+When multiple users are reading and writing from the same table all at once, isolation of their transactions ensures that the concurrent transactions don’t interfere with or affect one another. Each request can occur as though they were occurring one by one, even though they're actually occurring simultaneously.  
+#### Durability
 After a transaction successfully completes, changes to data persist and are not undone, even in the event of a system failure.  
 For example, in an application that transfers funds from one account to another, the durability property ensures that the changes made to each account will not be reversed.  
+
+---
 
 **What do you mean by denormalization?**  
 Denormalization refers to a technique which is used to access data from higher to lower forms of a database. It helps the database managers to increase the performance of the entire infrastructure as it introduces redundancy into a table. It adds the redundant data into a table by incorporating database queries that combine data from various tables into a single table.  

@@ -19,7 +19,7 @@ Highly dimensional data or the number of attributes exceed the number of trainin
 5. Output is normally distributed for any input of X
 
 **Explain L1 and L2 Regularization?**
-L1 regularization adds the penalty term in the cost function by adding the absolute value of weight, while L2 regularization adds the squared value of weights in the cost function. L2 estimates mean, whilst L1 estimates median. It assists in feature selection by zeroing non-important features
+L1 (Lasso) regularization adds the penalty term in the cost function by adding the absolute value of weight, while L2 (Ridge) regularization adds the squared value of weights in the cost function. L2 estimates mean, whilst L1 estimates median. L1 assists in feature selection by zeroing non-important features and differentiates between features that are exactly zero and features that are small but nonzero. L2 regression can be used to estimate the significance of predictors and based on that it can penalize the insignificant predictors. When L1 and L2 regularization combine together, it becomes the elastic net method, it adds a hyperparameter. Higher forms of regularization causes the model to become too sensitive to outliers (since more weight is given to anomalous points). *Squared L2* may be preffered since it is easier to compute (no square root, derivatives of the squared correspond only to single instances, whilst derivatives of the square root depend on the entire vector). *Squared L2* may not be preferred because it increases slowly near the origin.
 
 **How do you handle missing data?**
 1. Replacing the missing value with the mean, median, or mode.

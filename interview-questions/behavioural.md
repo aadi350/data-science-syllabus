@@ -157,3 +157,19 @@ I’m thorough and tenacious. When I’m on a project, I keep track of the detai
 
 **Organizational Skills**  
 I’m highly organized, and I’ve applied my natural skill for organizing people and projects to all aspects of my work. After seven years of working as a project manager, I’ve had only one late product launch. From that experience, which took place three years ago, I learned a crucial lesson about trade-offs.
+
+## Talking About Past Experiences  
+**Can you tell me about an AI / machine learning project that you have done in the past?**  
+*The intent of the question is to understand your depth of knowledge and contributions from past experiences. It tests your ability to tell a story around your work and whether you can tie it to impact on the company you worked with.*
+
+- Try to describe a project that demonstrates both product and engineering experience. For example, if you identified a machine learning model that could solve a business problem, you should explain how these topics furthered company growth.   
+- Go into detail about your specific contribution and the outcome from a business goal perspective. The interviewer wants to know what you specifically did while trying to understand the overall goal of the project
+
+**What have you liked or disliked about your previous position?**  
+*The intent of the question is to identify whether the role you’re interviewing for is suitable for you, and to identify why you’re moving on from a previous position*  
+
+Discuss solving a problem in an actionable way as something you enjoy, learning new technologies, etc. You might dislike how the organization is not placing AI/ML at the center of its strategy or that the company has had significant attrition at the management level and the direction of the team is unclear. Keep it positive and away from personal situations 
+
+**Tell me about a time when you had to convince others to take your position on a specific matter. What was the outcome?**  
+*The intent is to find out how good are you at defending your position and your ability to make change within a team*  
+Try to find an example where you were successful at making the change and then discuss how the change was quantifiable in its impact. If possible, use a machine learning or AI example. It’s important that you demonstrate your communication and leadership skills here. Bottom line is, you want to describe a situation that was happening as normal, a trigger event or complication that messed things up, and then how you pushed the team to come to resolution. This will show that you don't simply react instinctually, but that you think about how to solve problems.

@@ -1,3 +1,4 @@
+https://medium.com/subhrajit-roy/cracking-the-machine-learning-interview-1d8c5bb752d8
 # Modeling
 **What is long-format vs wide-format data?**  
 |Long Format|Wide Format|
@@ -20,6 +21,9 @@ Highly dimensional data or the number of attributes exceed the number of trainin
 
 **Explain L1 and L2 Regularization?**
 L1 (Lasso) regularization adds the penalty term in the cost function by adding the absolute value of weight, while L2 (Ridge) regularization adds the squared value of weights in the cost function. L2 estimates mean, whilst L1 estimates median. L1 assists in feature selection by zeroing non-important features and differentiates between features that are exactly zero and features that are small but nonzero. L2 regression can be used to estimate the significance of predictors and based on that it can penalize the insignificant predictors. When L1 and L2 regularization combine together, it becomes the elastic net method, it adds a hyperparameter. Higher forms of regularization causes the model to become too sensitive to outliers (since more weight is given to anomalous points). *Squared L2* may be preffered since it is easier to compute (no square root, derivatives of the squared correspond only to single instances, whilst derivatives of the square root depend on the entire vector). *Squared L2* may not be preferred because it increases slowly near the origin.
+
+**Why is an orthogonal matrix computationally preferred?**  
+Two vectors are orthogonal when their dot product equals zero, called orthonormal. Computing an inverse is usually hard but not for the orthogonal matrix. Therefore, if we can factorize a matrix into orthogonal matrices, that will be great news. For a symmetric matrix, we can guarantee to decompose it into $Q\Lambda Q^T$ where $Q$ is an orthogonal matrix and $\Lambda$ is a diagonal matrix  
 
 **How do you handle missing data?**
 1. Replacing the missing value with the mean, median, or mode.

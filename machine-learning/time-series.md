@@ -28,12 +28,22 @@ White noise has a near-zero ACF
 
 **Partial Autocorrelation**  
 For a given lag, is the *partial* correlation of the time series with itself at the given lag given all information between the two points in time.  
-Is able to visualise "true" non-redundant informative correlations for specific lags
+Is able to visualise "true" non-redundant informative correlations for specific lag
 
 
+# Statistical Time Domain
+## General Information
+### Advantages  
+- Simple and transparent, hence easily explainable
+- Good results on small data
+- Perform comparible well (with respect to more advanced models) without the risk of overfitting
+- Simple to generate forecasts 
 
+### Disadvantages 
+- May not improve in performance given larger data
+- Focus on point estimates of mean values as opposed to features of distribution thereby limited exxpression of uncertainty  
+- Cannot handle data with nonlinear dynamics
 
-# Time Domain
 ## Auto-Regressive Integrated Model Average  
 Is a sum of present and past **series** terms  
 
@@ -108,3 +118,15 @@ $$
 - ARIMA(0, 1, 1) is an exponential smoothing model, and an ARIMA(0, 2, 2) is the same as Holt’s linear method, which extends exponential smoothing to data with a trend, so that it can be used to forecast data with an underlying trend.  
 
 ## Vector Autoregression  
+Each variable is modeled as a linear combination of past values of itself and the past values of other variables in the system, can be used to test this hypothesis
+
+$$
+y_{t} = \textbf{c} + \sum_{i=1}^{p} \textbf{A}_{i}\textbf{y}_{t-i} + \textbf{u}_t
+$$
+
+### Where to Use  
+- At least two time, non-independent time-series  
+- All series are statioary  
+
+### Considerations  
+- Complexity increases quadratically, *information content* of a VAR model should be checked

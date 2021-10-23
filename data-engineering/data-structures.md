@@ -46,6 +46,23 @@ Easier to implement than chaining (except in the $DELETE$ operation's case). Eac
 
 # B-Trees
 
-# Bloom Filters  
+# Bloom Filters 
+If your application requires fast lookups with a dynamically changing set of objects, space is at a premium, and a small number of false positives can be tolerated, the bloom filter is usually the data structure of choice
+
+## <div style="color:#0A0">Advantages</div> 
+- More space efficient than hash table 
+- Guaranteed constant time operation regardless of data
+
+
+## <div style="color:#0A0">Disadvantages</div> 
+- Deletions are complicated  
+- False positives
+- Cannot store actual pointer to object  
+
+
+## Supported Operations  
+
+**Lookup**(a.k.a. Search):  for a key k, return “yes” if k has been previously inserted into the bloom filter and “no” otherwise
+**Insert**: add a new key $k% to the bloom filter 
 
 # Linked List  

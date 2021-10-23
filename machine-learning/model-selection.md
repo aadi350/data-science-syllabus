@@ -23,8 +23,6 @@ Both AIC and *BIC* (or *Schwarz criterion*) are applicable where fitting is carr
 **MDL**  
 *Minimum-Description-Length* derived as a result of Occam's Razor, which favours simpler models. The best hypothesis to describe data is the one that compresses it the most
 
-# Curse of Dimensionality  
-Most points in a high-dimensional hypercube are very close to the border, and the average distance increases as the number of dimensions go up. High-dimensional datasets are the risk of being very sparse, as most training instances will be very far each other meaning models fail to generalize adequately.
 
 # Overfitting and Underfitting
 In overfitting, a statistical model describes random error or noise instead of the underlying relationship.
@@ -37,7 +35,7 @@ overreacts to minor fluctuations in the training data.
 2. Feature selection  
 3. Increase training set size  
 4. Regularization 
-5.  Cross-validation  
+5. Cross-validation  
 6. Boosting and bagging  
 7. Dropout  
 8. Early stopping   

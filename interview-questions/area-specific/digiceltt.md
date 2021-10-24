@@ -74,8 +74,10 @@ Newtork vendor for fibre-to-the-home, business and rolling out over 7000km of ca
 *How they talk about the workplace on social media*  
 
 # Applications of ML  
+- Traffic classification based on ports to identify P2P and unnknown applications
+- Traffic volume estimation using time-series and network tomography for congestion conntrol and resource allocation
+- Fault management to pre-emptively predict failure modes and correct before, trained on packet traces, telemetry and logs
 - Network optimization optimizing network KPIs and service KPIs, optimized for each markey's specific apps and services  
-- ANomaly detection, root cause identification, predictive maintenance  
 - Ticket classification, SLA assurance  
 - Chatbots for customer service (built on ANA)  
 - Predictive maintenance for hardware monitoring node behaviour  

@@ -81,8 +81,12 @@ Newtork vendor for fibre-to-the-home, business and rolling out over 7000km of ca
 - Ticket classification, SLA assurance  
 - Chatbots for customer service (built on ANA)  
 - Predictive maintenance for hardware monitoring node behaviour  
-**For Networks**  
 - Self healing, dynamic optimization, automated network design  
+
+## Challenges  
+- How to collect the right data, inncosistent and messy
+- Choosing the correct ML platform  
+- How to scale and learn uniformly accross multiple domains and network type
 
 # Important Employee Bios  
 #### CEO  

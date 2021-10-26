@@ -7,15 +7,15 @@ A node which stores a copy of a database
 One replica receives all write requests, initiates changes in followers by sending a replication log  
 A new follower updates itself bby taking a snapshot of the leader, and then requests data changes since the snapshot  
 
-## Handling Failure
-### Leader  
+### Handling Failure
+#### Leader  
 A *failover* where one follower is promoted to the leader and all writes are redirected to this new leader  
 The most up-to-date replica can be chosen as the new leader  
 
-### Follower  
+#### Follower  
 Follower log is compared to the leader to update when restarted  
 
-## Replication Logs  
+### Replication Logs  
 **Statement based**  
 Issues with NOW() and other nondeterministic functions if SQL queries are copied as is
 
@@ -23,7 +23,7 @@ Issues with NOW() and other nondeterministic functions if SQL queries are copied
 **Row-based**  
 Logical log decoupled from storage engine internals, and changes to rows/columns kept, enough information to uniquely idenetify updated, deleted, new rows**Statement
 
-## Handling Lag  
+### Handling Lag  
 *When followers are not up-to-date with the leader*  
 **Monotonic Reads**  
 If several reads from different replicas are made  
@@ -44,7 +44,7 @@ Conflicts may occur if multiple leaders update at different times
 3. Merge conflicts 
 4. Record conflict and prompt user to fix it: can be on write or on read
 
-## Leaderless Replication  
+# Leaderless Replication  
 - Subset of replicas required to acknowledge writes meaning it does not require considerations for failure
 - Read requests are also sent to multiple nodes to combat stale reads
 - Falling behind significantly should generate alerts, and there is no one value to determine how stale a replica is

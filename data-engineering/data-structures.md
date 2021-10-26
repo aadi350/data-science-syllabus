@@ -49,6 +49,9 @@ Easier to implement than chaining (except in the $DELETE$ operation's case). Eac
 # Bloom Filters 
 If your application requires fast lookups with a dynamically changing set of objects, space is at a premium, and a small number of false positives can be tolerated, the bloom filter is usually the data structure of choice
 
+## How it Works  
+$n$-bit string stores $1$s or $0$s. Multiple *different* hash functions set these bits to 1 when an item is inserted.
+
 ## <div style="color:#0A0">Advantages</div> 
 - More space efficient than hash table 
 - Guaranteed constant time operation regardless of data

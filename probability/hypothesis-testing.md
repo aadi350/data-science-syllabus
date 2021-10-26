@@ -22,6 +22,8 @@ statistic and parameter stated in the null hypothesis are statistically signific
 difference may not be large enough to cause concern or be considered important
 $\beta$ is probability of falsely non-rejecting null hypothesis when alternative is true
 
+**Size** is the probability of making a *Type I* error (falsely rejecting the null hypothesis)
+
 **Power** measures probability of taking the action that we wish to occur $1-\beta$
 
 **p-value** or observed significance level is smallest value of $\alpha$ for which $H_{0}$ can be rejected, measures strength of evidence against null, is **actual** risk of committing a Type I error

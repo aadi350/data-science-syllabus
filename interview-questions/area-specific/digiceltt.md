@@ -1,8 +1,12 @@
 # Customers
 # Mission Statement  
 *not quite but close*  
-Go digital with digicel  
+Go digital with digicel, emphasis on digital transformation  
+> From Satya Nadella (Microsoft): it's only today that we have access to, or the propensity for generating and collecting data, which lies at the heart of digital transformation. No longer just about automating, but to write AI to reason over large amounts of data to create the functionality  
 Journey to bring a digital lifestyle to customers  
+
+The ability to relate exceptions (feedback loop), unless we measure for each one of the digital transformational outcomes, when something happens and it flows all the way back to some predictive power which allows us to change that outcome, it' about the **system of intelligence** (measurement, analysis, feedback-change)
+
 Keep up to speed with customers but in a simple way
 
 ## Culture  

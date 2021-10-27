@@ -55,6 +55,23 @@ Step 4
 Multiply the proportions by 2985, the sample size, to obtain the expected counts within each cell  
 Follow this by carrying out the $\chi^2$ test for parameter independence  
 
+**Let A and B be events on the same sample space, with P (A) = 0.6 and P (B) = 0.7. Can these two events be disjoint?**  
+These two events cannot be disjoint because P(A)+P(B) >1.
+$$
+P(AꓴB) = P(A)+P(B)-P(A\cap B).
+$$
+An event is disjoint if P(A\cap B) = 0. If A and B are disjoint $P(A\cup B) = 0.6+0.7 = 1.3$
+And Since probability cannot be greater than 1, these two mentioned events cannot be disjoint.
+
+**Alice has 2 kids and one of them is a girl. What is the probability that the other child is also a girl? You can assume that there are an equal number of males and females in the world**  
+The outcomes for two kids can be {BB, BG, GB, GG}
+
+Since it is mentioned that one of them is a girl, we can remove the BB option from the sample space. Therefore the sample space has 3 options while only one fits the second condition. Therefore the probability the second child will be a girl too is 1/3.
+
+**Consider a tetrahedral die and roll it twice. What is the probability that the number on the first roll is strictly higher than the number on the second roll?**
+There are 6 out of 16 possibilities where the first roll is strictly higher than the second roll.
+
+
 # Graphs
 **Differentiate between box plot and histogram**  
 Box plots and histograms are both visualizations used for showing data distributions for efficient communication of information.

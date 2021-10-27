@@ -130,3 +130,18 @@ $$
 
 ### Considerations  
 - Complexity increases quadratically, *information content* of a VAR model should be checked
+
+# Evaluating Time-Series Models  
+*Gold standard: backtesting with trainning, validation and testin periods that roll forward*  
+No reason to have a model that doesn't beat a null model 
+$$
+y_t = y_{t-1}
+$$
+In backtesting, a model is developed for one set of dates, or a range of dates, but then it is tested extensively on historical data, preferably representing the full range of possible conditions and variability
+
+Following image: green is training, orange is test/validation data
+
+![Ideal Scheme](assets/time-series/evaluation-cross-validation.png)
+
+Cannot randomly select points for validation since model's recongition of autoregressive components will be undetermined. 
+Distribution of model output should match distribution of values being forecasted

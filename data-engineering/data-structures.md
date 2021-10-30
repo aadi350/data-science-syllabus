@@ -41,10 +41,42 @@ Easier to implement than chaining (except in the $DELETE$ operation's case). Eac
 - Cannot perform range-queries  
 - Must be kept in memory
 
+---
 
 # Binary Trees  
 
+---
+
 # B-Trees
+## How It Works
+Extends concept of binary tree, designed to work with out-of-memory data
+- Every node has $n$ keys stored in non-decreasing order  
+- Node has a flag indicating whether is a leaf or not  
+- Node contains $n+1$ pointers to $i=n+1$ children  
+- Keys separate ranges of keys stored in each subtree  
+- Every leaf has the same depth (tree-height)  
+- Every node other than the root has at least $t-1$ keys (and therfore $t$ children), and at most $2t-1$ keys
+- Nodes are typically matched to a magnetic disk's page size, as this is the unit of data read from and written to in everyday operations  
+
+
+## Supported Operations  
+**Insert**  
+Position for new value is found in a node by linear search, if no children exist, value is inserted. If children exist, cannot simply insert a new leaf, as this violates the B-tree requirement. Start from root, and split every full node by its median on the way down, until required position is found. 
+
+**Find** 
+Linear search of a node, followed by reading the respective child into disk, and followed by recursive search-the-load until the key is found (or not) 
+**Delete**  
+
+## <div style="color:#0A0">Advantages</div> 
+- Much lower height that typical binary or Red-Black tree  
+- Handles out-of-memory data  
+- Worst-case read time is $O(\log_t(n))$
+
+## <div style="color:#A00">Disadvantages</div> 
+- Increased complexity of reads and writes  
+- Leaf and non-leaf nodes are of different sizes (complicating paging)
+
+---
 
 # Bloom Filters 
 If your application requires fast lookups with a dynamically changing set of objects, space is at a premium, and a small number of false positives can be tolerated, the bloom filter is usually the data structure of choice

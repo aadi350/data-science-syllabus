@@ -137,6 +137,11 @@ After fetching rows, cursor must be closed, which releases all allocated memory
 CLOSE cursor_name  
 ```  
 
+# Window Functions  
+Window functions separate your table into several chunks and operates on each chunk individually. But unlike GROUP BY, the rows are not combined.
+
+
+
 # Filtering using ```WHERE``` or ```HAVING```
 # Common Table Expressions
 # Case 

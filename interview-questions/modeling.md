@@ -49,6 +49,10 @@ Extra Tree Classifier: This technique gives you a score for each feature of the 
 Correlation Matrix: A table that displays the correlation of all the features against each other. Each cell in the table displays a correlation between two variables. We can use a threshold value to select the less correlated variables out of the dataset.
 Mutual Information: It is a classifier that generates the mutual information of each feature with respect to the dependent feature. The higher the information is relevant it is
 
+**Why use feature selection? If two predictors are highly correlated, what is the effect on the coefficients in the logistic regression? What are the confidence intervals of the coefficients?**  
+Feature selection attempts to optimize a model to be as accurate as possible (i.e. selecting new information) while also avoiding selecting redundant features.  Correlated features are likely to have unstable coefficients when training is repeated on multiple sets of data.  The confidence interval of the coefficients gives a sense of how stable the coefficients are by providing a range of expected values. 
+
+
 **How do you handle categorical data?**  
 One-hot encoding for nominal data, label encoding for ordinal features, or count encoding
 

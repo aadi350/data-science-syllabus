@@ -80,3 +80,41 @@ I hope that my track record will be able to drive business goals and/or revenue/
 Focus on proven value, show that qualifications/experiences align, here's where I started and here's where I am  *(I've been doing this for a while, that's why you should hire me)*  
 State that you wish to become an SME that other persons can't, that simulatenously drives business goals  
 I believe that I can help people and simplify the customer-facing side by making stronger decisions (long-term)
+
+# KPIs in Finance  
+
+Liquidity refers to the ease with which an asset, or security, can be converted into ready cash without affecting its market price
+
+**Gross Profit Margin**: How much revenue you have left after COGS?
+
+**Operating Profit Margin**: How is your EBIT developing over time?
+
+**Operating Expense Ratio**: How do you optimize your operating expenses?
+
+**Net Profit Margin**: How well your company increases its net profit?
+
+**Working Capital**: Is your company in stable financial health?
+
+**Current Ratio**: Can you pay your short-term obligations?
+
+**Quick Ratio / Acid Test**: Is your company’s liquidity healthy?
+
+**Berry Ratio**: Are you losing money or generating profit?
+
+**Cash Conversion Cycle**: How fast can you convert resources into cash?
+
+**Accounts Payable Turnover**: Are you paying expenses at a reasonable speed?
+
+**Accounts Receivable Turnover**: How quickly do you collect payments?
+
+**Vendor Payment Error Rate**: Are you processing your invoices productively?
+
+**Budget Variance**: Is your budgeting accurate and realistic?
+
+**Return on Assets**: Do you utilize your company’s assets efficiently?
+
+**Return on Equity**: How much profit do you generate for shareholders?
+
+**Employee Satisfaction**: Will your team recommend you as a workplace?
+
+**Payroll Headcount Ratio**: How do you utilize your labor force?

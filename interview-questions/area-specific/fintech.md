@@ -1,3 +1,37 @@
+# CIBC FCIB  
+- Over 250 years in the Caribbean  
+- Formed in 2002 with merger of CIBC WI Holdings and Barclays Pank PLC
+- 2011 branded under the CIBC banner  
+
+**Vision**  
+To be the first choice for financial services in the region by putting our clients at the centre of everything we do.  
+
+**Mission**  
+To deliver a simplified, modern everyday banking experience to all of our clients.  
+
+## Values  
+**Trust**  
+Acting with integrity, honesty and transparency  
+
+**Teamwork**  
+Work together to promote a sense of pride and purpose in all we do for our clients and for our bank 
+
+**Accountability**  
+We do what we say, because this is what our clients expect and deserve. If we make a mistake, we admit it and fix it.  
+
+## Strateggic Priorities  
+**Client Relationships**  
+We aim to grow our share of wallet with our existing clients, attract new clients, further improve sales and service capability by creating a personalised, responsive and easy experience.  
+
+**Modern Everyday Banking**  
+We are building digital capabilities across our sales and delivery channels to provide our clients with a modern omni-channel, banking experience.  
+
+**Simplification**  
+Optimising processes and cost structure by removing paper from our processes, investing in the next ggeneration compliance and customer onboarding  
+
+**People**  
+Developing our people  
+
 # Applications of Data Science 
 ## Risk Assessment  
 From creating online working capital loans to making investment decisions  
@@ -31,3 +65,18 @@ Claiming false deductions, such as misclassification of personal and business ex
 
 ### Credit Card Fraud  
 Unauthorized use of credit or debit card numbers  
+
+# Why do you want to work here?  
+- Do you understand the position you're applying for?  
+- Doy your goals and experience align with the role?  
+- Are you enthusiastic about the role?  
+- Will you positively contribute to the company?  
+Match my skills to the role, specific parts of the role  
+I've really enjoyed my last position, but I'm willing to go into this one, what about the company stands out to me: *What really strikes me is how invested you are in the customer-facing experience, your dedication to fraud prediction and digital transformation is something I am greatly interested in. I have, in the past,led projects on digital/paperless transformation, and additionally have assisted in the development of metrics for customer-facing operations*  
+
+
+# Where do you see yourself in five years?/What are your career goals?  
+I hope that my track record will be able to drive business goals and/or revenue/customer-satisfaciton (short-term)
+Focus on proven value, show that qualifications/experiences align, here's where I started and here's where I am  *(I've been doing this for a while, that's why you should hire me)*  
+State that you wish to become an SME that other persons can't, that simulatenously drives business goals  
+I believe that I can help people and simplify the customer-facing side by making stronger decisions (long-term)

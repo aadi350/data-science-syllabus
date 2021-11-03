@@ -1,8 +1,8 @@
-# SVM
-Support Vector Machines (SVMs) use a different loss function (Hinge) from LR.  
-they are also interpreted differently (maximum-margin).  
-SVM with a linear kernel is similar to a Logistic Regression in practice 
-if the problem is not linearly separable, use an SVM with a non linear kernel (e.g. RBF). (Logistic Regression can also be used with a different kernel) 
+# Support Vector Machine
+# Intuition
+
+<h2 style="color: #00A">Assumptions</h2>  
+
 
 <h2 style="color: #0AA">Advantages</h2>  
 

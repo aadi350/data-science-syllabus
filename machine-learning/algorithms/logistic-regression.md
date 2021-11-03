@@ -1,4 +1,9 @@
 # Logistic Regression
+## Intuition  
+
+
+
+<h2 style="color:#00A">Assumptions</h2>  
 
 <h2 style="color:#0A0">Advantages</h2>  
 
@@ -10,6 +15,11 @@
 - efficient, and can be distributed(ADMM)    
 - no distribution requirement  
 - easily update the model to take in new data (using an online gradient descent method)  
+
+<h2 style="color:#A00">Disadvantages</h2>
+if the variables are normally distributed and the categorical variables all have 5+ categories: use Linear discriminant analysis  
+if the correlations are mostly nonlinear: use SVM  
+if sparsity and multicollinearity are a concern: Adaptive Lasso with Ridge(weights) + Lasso 
 
 **Lasso(L1)**  
 no distribution requirement  
@@ -23,7 +33,4 @@ compute L2 loss
 no variable selection  
 not suffer multicollinearity  
 
-<h2 style="color:#A00">Disadvantages</h2>
-if the variables are normally distributed and the categorical variables all have 5+ categories: use Linear discriminant analysis  
-if the correlations are mostly nonlinear: use SVM  
-if sparsity and multicollinearity are a concern: Adaptive Lasso with Ridge(weights) + Lasso  
+ 

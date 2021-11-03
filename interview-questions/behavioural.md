@@ -70,6 +70,9 @@ Given your series of tasks and the result, what did you learn, and what would yo
 - Was there a person in your career who really made a difference? In what way?
 - Tell me about your proudest achievement.
 
+# Behavioural Questions  
+### Explain a time you had to deal with a tricky situation  
+
 # Questions to ask the Interviewer
 *Always do this*  
 

@@ -1,4 +1,4 @@
-# Artifical Neural Network 
+# \<Algorithm Name\>
 
 ## Intuition/Operating Principle
 

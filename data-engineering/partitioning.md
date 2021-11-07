@@ -60,6 +60,4 @@ All clients can contact any node via a load-balancer, if the accessed node does 
 ## Routing Tier Service
 Send all requests from clients to a routing tier first, which determines the node that should handle each request and forwards it accordingly. This routing tier does not itself handle any requests; it only acts as a partition-aware load balancer
 ## Client-Side Partition Awareness
-Every client is aware of partitioning and assignment of partitions
-
-
+Every client is aware of partitioning and assignment of partitions 

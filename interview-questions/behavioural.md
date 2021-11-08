@@ -115,6 +115,27 @@ I'm really grateful for the opportunity to interview today and excited to learn 
 - What qualities do you wish to develop in yourself professionally and personally?
 - What qualities will it take to achieve your future goals?
 
+### Tell me about a time you made a mistake at work?  
+
+### What’s the Most Difficult Decision You’ve Had to Make?  
+- To get an idea of confidence and the thought process  
+- Making hard decisions should be considering all feasible options as well as future outcomes, non-impulsive, based off of collaboration with coworkers and decisive
+Structure follows:  
+    - Scenario: context and key points
+    - Conflict: why this was challenging, acknowledge different perspectives  
+    - Qualities to highlight: leadership, strategy, patiences, etc 
+    - Influencing factors: pros and cons  
+    - State the choice, outcome and reflect on the decision  
+
+### Why should we hire you?  
+- Focus on what's relevant to employer 
+- *Here's how I can help you by solving your business needs*  
+From what this job requires, I believe that my combination of X skills can be used to do Y. For example...
+
+
+### What should your salary look like?  
+Total compensation for me is more than strictly monetary/salary payments. I'm still learning about the roles and responsibilities, so it's hard to say what my expectations are for this particular role, but I'd love to known what you've budget for this role  
+
 ### What are you passionate about?  
 1. Select something you are genuinely passionate about.
 2. Explain why you’re passionate about it.

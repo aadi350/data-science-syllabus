@@ -2,6 +2,8 @@
 
 ## Intuition/Operating Principle
 
+## Key Terms
+
 <h2 style="color:#00A">Assumptions</h2>
 -
 

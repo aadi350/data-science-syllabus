@@ -1,14 +1,46 @@
+- [General Tips](#general-tips)
+  - [Things to Ask the Interviewer](#things-to-ask-the-interviewer)
+  - [Traits that may be helpful](#traits-that-may-be-helpful)
+  - [Researching the Organization](#researching-the-organization)
+  - [Finding Experiences to Match the Organisation](#finding-experiences-to-match-the-organisation)
+  - [STAR-I Technique](#star-i-technique)
+  - [Prior Experience Question Prompts](#prior-experience-question-prompts)
+- [Behavioural Questions](#behavioural-questions)
+    - [Explain a time you had to deal with a tricky situation](#explain-a-time-you-had-to-deal-with-a-tricky-situation)
+    - [Tell me About Yourself](#tell-me-about-yourself)
+    - [Why do you want to work here?](#why-do-you-want-to-work-here)
+    - [Tell me about a time you made a mistake at work?](#tell-me-about-a-time-you-made-a-mistake-at-work)
+    - [What’s the Most Difficult Decision You’ve Had to Make?](#whats-the-most-difficult-decision-youve-had-to-make)
+    - [Why should we hire you?](#why-should-we-hire-you)
+    - [What should your salary look like?](#what-should-your-salary-look-like)
+    - [What are you passionate about?](#what-are-you-passionate-about)
+    - [What can you contribute to this company?](#what-can-you-contribute-to-this-company)
+    - [What Skills Would You Bring to the Job?](#what-skills-would-you-bring-to-the-job)
+    - [What are your greatest weaknesses?](#what-are-your-greatest-weaknesses)
+    - [What are your greatest strengths?](#what-are-your-greatest-strengths)
+  - [Talking About Past Experiences](#talking-about-past-experiences)
+    - [Can you tell me about an AI / machine learning project that you have done in the past?](#can-you-tell-me-about-an-ai--machine-learning-project-that-you-have-done-in-the-past)
+    - [What have you liked or disliked about your previous position?](#what-have-you-liked-or-disliked-about-your-previous-position)
+    - [Tell me about a time when you had to convince others to take your position on a specific matter. What was the outcome?](#tell-me-about-a-time-when-you-had-to-convince-others-to-take-your-position-on-a-specific-matter-what-was-the-outcome)
 # General Tips  
 - Match your language to the voice and image of the brand  
 
-# Things to Ask the Interviewer  
+## Things to Ask the Interviewer  
 1. What is the company culture like?
 2. Is there an opportunity for growth in this role?
 3. How do you measure employee performance?
 4. What is the most challenging aspect of the position?
 5. What do you enjoy most about working with this company? 
 
-# Researching the Organization  
+## Traits that may be helpful  
+- Integrity  
+- Work ethic  
+- Communicative  
+- Flexible  
+- Ambitious/Independent  
+- Adaptable  
+
+## Researching the Organization  
 *From Grokking the Behavioural Interview*  
 - Look into mission statement, history, products, services, culture and pay attention to the *tone*  
 - What industry does the organization operate in?
@@ -34,7 +66,7 @@ How do they differentiate their products or services?
 - A time when you failed but learned.
 - A time when you had to defuse​ an escalating situation.
 
-# STAR-I Technique
+## STAR-I Technique
 Structured way to respond to behavioural intervie questions
 
 **Situation**  
@@ -52,7 +84,7 @@ Describe the outcome. When talking about the result, make sure you go over what 
 **Improvement**  
 Given your series of tasks and the result, what did you learn, and what would you do differently in the future?
 
-# Prior Experience Question Prompts  
+## Prior Experience Question Prompts  
 *Taken from Grokking the Behavioural Interview*  
 - What was the last project you led, and what was its outcome?
 - Give me an example of a time that you felt you went above and beyond at work.
@@ -73,10 +105,6 @@ Given your series of tasks and the result, what did you learn, and what would yo
 # Behavioural Questions  
 ### Explain a time you had to deal with a tricky situation  
 
-# Questions to ask the Interviewer
-*Always do this*  
-
-# Important Question Responses  
 ### Tell me About Yourself  
 1. Discuss your current role, highlighting major, relevant achievements and responsibilities  
 2. Work backwards highlighting key points, previous experiences and **how they helped you prepare for the role**. Quantify results where possible  
@@ -89,7 +117,7 @@ Given your series of tasks and the result, what did you learn, and what would yo
 - What are the positive traits or characteristics you possess that will serve you well in this role?  
 - Is there something unique about your background that makes you stand out from other applicants?
 
-#### Template for Answering  
+**Template for Answering**  
 *From Adam Broda*   
 My name is ________, and I'm a life-long learner, passionate about using new, and inventive technology to positively impact the lives of others. I'm a strong researcher who loves data analytics and failing fast.
 Over the last ______ years I've been growing, and honing my skills as a ________ manager and people leader; with experience building and releasing ______ different public-facing _______; now with over ______ users worldwide.
@@ -142,9 +170,10 @@ Total compensation for me is more than strictly monetary/salary payments. I'm st
 3. Give examples of how you’ve pursued this passion.
 4. Relate it back to the job.
 *Prompts to flesh out an answer*
-- What motivates you  
-- What your strengths may be  
-- What interests you personally and professionally  
+- What do you find yourself naturally attracted to OR find yourself doing in your free time ? 
+- Practical needs for a job?
+- What does success look like for my future self?  
+
 
 ### What can you contribute to this company?  
 Showcase how I see myself fitting into company culture, personal approach to working with others, strength of work ethic.  
@@ -157,25 +186,14 @@ Showcase how I see myself fitting into company culture, personal approach to wor
 1. Match your skills to things the company prides itself on  and what is listed on the job  
 2. Using **STAR-I**, describe how strengths were used in the past.  
 *e.g. I think I'm very good at adapting to a constantly changing environment and being able to start from ground zero...e.g.* 
-#### Traits that may be helpful  
-- Integrity  
-- Work ethic  
-- Communicative  
-- Flexible  
-- Ambitious/Independent  
-- Adaptable  
 
 
 
-### What motivates you?  
-1. Employers want to know whether your sources of motivation align with the role 
-2. Employers want to determine whether you are self-aware enough to know what drives you
-
-### Weaknesses  
+### What are your greatest weaknesses?   
 **Self Critical**  
 I can be too critical of myself. A pattern I’ve noticed throughout my career is that I often feel I could have done more, even if objectively, I’ve done well. Earlier in my career, this led to burnout and negative self-talk. Follow with how I improved
 
-## Strengths  
+### What are your greatest strengths? 
 **Persistence**  
 I’m thorough and tenacious. When I’m on a project, I keep track of the details. Because I have a comprehensive understanding of the components, I can spot the essentials and rigorously advocate for them to meet deadlines. I regularly see this reflected in my peer and management feedback.  
 
@@ -183,17 +201,17 @@ I’m thorough and tenacious. When I’m on a project, I keep track of the detai
 I’m highly organized, and I’ve applied my natural skill for organizing people and projects to all aspects of my work. After seven years of working as a project manager, I’ve had only one late product launch. From that experience, which took place three years ago, I learned a crucial lesson about trade-offs.
 
 ## Talking About Past Experiences  
-**Can you tell me about an AI / machine learning project that you have done in the past?**  
+### Can you tell me about an AI / machine learning project that you have done in the past?
 *The intent of the question is to understand your depth of knowledge and contributions from past experiences. It tests your ability to tell a story around your work and whether you can tie it to impact on the company you worked with.*
 
 - Try to describe a project that demonstrates both product and engineering experience. For example, if you identified a machine learning model that could solve a business problem, you should explain how these topics furthered company growth.   
 - Go into detail about your specific contribution and the outcome from a business goal perspective. The interviewer wants to know what you specifically did while trying to understand the overall goal of the project
 
-**What have you liked or disliked about your previous position?**  
+### What have you liked or disliked about your previous position? 
 *The intent of the question is to identify whether the role you’re interviewing for is suitable for you, and to identify why you’re moving on from a previous position*  
 
 Discuss solving a problem in an actionable way as something you enjoy, learning new technologies, etc. You might dislike how the organization is not placing AI/ML at the center of its strategy or that the company has had significant attrition at the management level and the direction of the team is unclear. Keep it positive and away from personal situations 
 
-**Tell me about a time when you had to convince others to take your position on a specific matter. What was the outcome?**  
+### Tell me about a time when you had to convince others to take your position on a specific matter. What was the outcome?
 *The intent is to find out how good are you at defending your position and your ability to make change within a team*  
 Try to find an example where you were successful at making the change and then discuss how the change was quantifiable in its impact. If possible, use a machine learning or AI example. It’s important that you demonstrate your communication and leadership skills here. Bottom line is, you want to describe a situation that was happening as normal, a trigger event or complication that messed things up, and then how you pushed the team to come to resolution. This will show that you don't simply react instinctually, but that you think about how to solve problems.

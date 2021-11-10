@@ -145,7 +145,7 @@ I'm really grateful for the opportunity to interview today and excited to learn 
 
 ### Tell me about a time you made a mistake at work?  
 
-### What’s the Most Difficult Decision You’ve Had to Make?  
+### What’s the Most Difficult Decision You’ve Had to Make? 
 - To get an idea of confidence and the thought process  
 - Making hard decisions should be considering all feasible options as well as future outcomes, non-impulsive, based off of collaboration with coworkers and decisive
 Structure follows:  

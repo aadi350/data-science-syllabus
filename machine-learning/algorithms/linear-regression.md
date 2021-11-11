@@ -40,7 +40,7 @@ $y_i - \hat{y_i}$ vs $x_i$ OR vs $y_i$
 Ideally, residual plot should show no discernable pattern (residual should be non-correlated with predictors and predicted)  
 Can be used to detect outliers (unusually large error)  
 
-**Pearson's $\text{R}^2$**
+**Pearson's $\text{R}^2$**  
 Proportion of variance in response as explained by input predictors  
 
 **$F$-statistic**  

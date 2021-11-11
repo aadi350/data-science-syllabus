@@ -36,3 +36,4 @@ Sincerely, ...
 - Spellcheck  
 - Be memorable and include keywords in the job description  
 - Personalize each cover letter per job 
+- Stick to job posting  

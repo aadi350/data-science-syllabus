@@ -10,6 +10,7 @@
     - [Tell me About Yourself](#tell-me-about-yourself)
     - [Why do you want to work here?](#why-do-you-want-to-work-here)
     - [Tell me about a time you made a mistake at work?](#tell-me-about-a-time-you-made-a-mistake-at-work)
+    - [Tell me about a time you had to make a challenging decision](#tell-me-about-a-time-you-had-to-make-a-challenging-decision)
     - [What’s the Most Difficult Decision You’ve Had to Make?](#whats-the-most-difficult-decision-youve-had-to-make)
     - [Why should we hire you?](#why-should-we-hire-you)
     - [What should your salary look like?](#what-should-your-salary-look-like)
@@ -144,6 +145,8 @@ I'm really grateful for the opportunity to interview today and excited to learn 
 - What qualities will it take to achieve your future goals?
 
 ### Tell me about a time you made a mistake at work?  
+
+### Tell me about a time you had to make a challenging decision
 
 ### What’s the Most Difficult Decision You’ve Had to Make? 
 - To get an idea of confidence and the thought process  

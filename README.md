@@ -5,19 +5,21 @@ This is a collection of topics, resources and otherwise useful resources I found
 *topic filepath*
 ## Data Engineering
 - [ ] Binary Trees Regression to data-engineering/data-structures
-- [ ] B-Trees data-engineering/data-structures
+- [x] B-Trees data-engineering/data-structures
 - [ ] SSTables/LSMTrees data-engineering/data-structures
 - [ ] Linked List data-engineering/data-structures
 - [x] Hash tables data-engineering/data-structures
 
 ## Machine Learning
-- [ ] Anomaly Detection pros/cons machine-learning/anomaly-detection
+- [ ] ANNs machine-learning/algorithms/ann
+- [ ] Gradient-boosted trees 
+- [x] kNN
+- [x] Linear Regression 
 - [ ] Explaiability machine-learning/coding
 - [ ] In-detail feature selection machine-learning/feature-selection
 - [ ] Squared, Absolute, Huber, Cosine losses machine-learning/loss-functions
-- [ ]  time-series basic concepts machine-learning/time-series
-- [ ]  State-space models machine-learning/time-series
-- [ ] Refactor algorithms in time-series to /algorithms folder  
+- [x]  time-series basic concepts machine-learning/time-series
+- [x] Refactor algorithms in time-series to /algorithms folder  
 
 ## Probability  
 - [ ] Binomial probability/distributions
@@ -29,4 +31,7 @@ This is a collection of topics, resources and otherwise useful resources I found
 - [ ] Common SQL Patterns sql-patterns/*
 
 # Sections to Update
-- 
+- [ ] Anomaly detection should be organised into general background and common algorithms machine-learning/anomaly-detection
+- [ ] Assumptions, intuition for logistic regression machine-learning/algorithms/logistic-regression  
+- [ ] Assumptions, intution for SVM machine-learning/algorithms/svm
+- [ ] Complete storage and replication from DA in data-engineering/

@@ -1,3 +1,26 @@
+- [Hash Tables](#hash-tables)
+  - [Supported Operations](#supported-operations)
+    - [Hash Functions](#hash-functions)
+      - [For Primitive Data Types](#for-primitive-data-types)
+      - [For Compound Objects](#for-compound-objects)
+      - [For Strings](#for-strings)
+    - [Collision Resolution](#collision-resolution)
+      - [Separate Chaining](#separate-chaining)
+      - [Open Addressing](#open-addressing)
+  - [<div style="color:#0A0">Advantages</div>](#div-stylecolor0a0advantagesdiv)
+  - [<div style="color:#A00">Disadvantages</div>](#div-stylecolora00disadvantagesdiv)
+- [Binary Trees](#binary-trees)
+- [B-Trees](#b-trees)
+  - [How It Works](#how-it-works)
+  - [Supported Operations](#supported-operations-1)
+  - [<div style="color:#0A0">Advantages</div>](#div-stylecolor0a0advantagesdiv-1)
+  - [<div style="color:#A00">Disadvantages</div>](#div-stylecolora00disadvantagesdiv-1)
+- [Bloom Filters](#bloom-filters)
+  - [How it Works](#how-it-works-1)
+  - [<div style="color:#0A0">Advantages</div>](#div-stylecolor0a0advantagesdiv-2)
+  - [<div style="color:#A00">Disadvantages</div>](#div-stylecolora00disadvantagesdiv-2)
+  - [Supported Operations](#supported-operations-2)
+- [Linked List](#linked-list)
 # Hash Tables  
 Keeps track of evolving set of objects indexed via keys
 
@@ -89,7 +112,7 @@ $n$-bit string stores $1$s or $0$s. Multiple *different* hash functions set thes
 - Guaranteed constant time operation regardless of data
 
 
-## <div style="color:#0A0">Disadvantages</div> 
+## <div style="color:#A00">Disadvantages</div> 
 - Deletions are complicated  
 - False positives
 - Cannot store actual pointer to object  

@@ -1,6 +1,14 @@
 # Product  
 *The general concepts tested heavily depend on the company that’s interviewing you*  
 
+[Product Estimation](https://igotanoffer.com/blogs/product-manager/estimation-interview-questions)  
+
+### You have a google app and you make a change. How do you test if a metric has increased or not? (Solution)
+### How do you detect viruses or inappropriate content on YouTube?
+### How would you compare if upgrading the android system produces more searches?
+### The outcome of an experiment is that 5% of one group clicks more. Is that a good result?
+### How would you remove bias and make inferences from data about two ad campaigns?
+### Given there are no metrics being tracked for Google Docs, a product manager comes to you and asks, what are the top five metrics you would implement?
 
 
 # Business  

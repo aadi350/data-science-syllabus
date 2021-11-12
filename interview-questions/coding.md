@@ -476,3 +476,12 @@ SELECT
     AND 
     a.state <> b.state 
 ```
+
+
+### How would you find the top 5 highest-selling items from a list of order histories?
+### Can you explain how SQL works?
+### Given three columns of data, how would you compare the first three to the last three?
+### How do you calculate the median for a given column of numbers in a data set?
+
+# Python
+### How to generate a matrix that follows Bernoulli distribution in python

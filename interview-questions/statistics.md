@@ -1,4 +1,19 @@
 # Statistics
+### In what situation would you consider mean over median?    
+### How do you ineterpret the standard error of the median and mean? 
+### For sample size n, the margin of error is 3. How many more samples do we need to make the margin of error 0.3? 
+
+### What is the assumption of error in linear regression?**  
+
+### Given data from two product campaigns, how could you do an A/B test if we see a 3% increase for one product?
+
+### I have a deck and take one card at random. What is the probability you guess it right?  
+### Explain a probability distribution that is not normal and how to apply that.
+### Given uniform distributions X and Y and the mean 0 and standard deviation 1 for both, what’s the probability of 2X > Y? (Solution)
+### There are four people in an elevator and four floors in a building. What’s the probability that each person gets off on a different floor?
+Make an unfair coin fair. (Solution)
+
+
 **What is an example of a data type with non-Gaussian distribution**  
 A Gaussian distribution is a distribution where a certain known percentage of the data can be found when examining standard deviations from the mean, otherwise known as a normal distribution. Some of the examples of the non-Gaussian distribution can be exponential distribution or binomial distribution.
 

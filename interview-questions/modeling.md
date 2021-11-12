@@ -1,6 +1,12 @@
 https://medium.com/subhrajit-roy/cracking-the-machine-learning-interview-1d8c5bb752d8
 # Modeling
-**What is long-format vs wide-format data?**  
+### If the labels are known in a clustering project, how would you evaluate the performance of the model?
+### Why use feature selection? (Solution)
+### If two predictors are highly correlated, what is the effect on the coefficients in the logistic regression? What are the confidence intervals of the coefficients?
+### What is the difference between K-mean and EM?
+### When using a Gaussian mixture model, how do you know it is applicable?
+
+### What is long-format vs wide-format data?
 |Long Format|Wide Format|
 |--- | --- |
 | Here, each row of the data represents the one-time information of a subject. Each subject would have its data in different/ multiple rows.  The data can be recognized by considering rows as groups.  | Here, the repeated responses of a subject are part of separate columns.  The data can be recognized by considering columns as groups |  

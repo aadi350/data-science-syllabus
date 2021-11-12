@@ -38,6 +38,23 @@ This is a collection of topics, resources and otherwise useful resources I found
 
 # Data Science Syllabus 
 
+## Machine Learning 
+### Optimization Methods  
+[Differential vs Non-Differential](.)  
+[Gradient Descent](.)   
+[Simulated Annealing](.)  
+
+
+### Algorithms  
+[Artificial Neural Networks](machine-learning/algorithms/ann.md)  
+[Gradient-Boosted Trees](machine-learning/algorithms/gradient-boosted-tree.md)  
+[k-Nearest Neighbours](machine-learning/algorithms/kNN.md)  
+[Linear Regression](machine-learning/algorithms/linear-regression.md)
+[Logistic Regression](machine-learning/algorithms/logistic-regression.md)
+[Support Vector Machine](machine-learning/algorithms/svm.md)  
+[Time-Series](machine-learning/time-series.md)  
+[Model Explainability with Shapely Values](machine-learning/algorithms/shapely-values-for-explainability.md)  
+
 ## SQL Patterns  
 [Constraints](sql-patterns/constraints.md)  
 [Common-Table Expressions](sql-patterns/ctes.md)  

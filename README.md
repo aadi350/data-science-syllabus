@@ -36,9 +36,62 @@ This is a collection of topics, resources and otherwise useful resources I found
 - [ ] Assumptions, intution for SVM machine-learning/algorithms/svm
 - [ ] Complete storage and replication from DA in data-engineering/
 
-# Data Science Syllabus 
+# Data Science Syllabus  
+## Statistics  
+### Experimental Tests 
+--Practical Statistics for Data Scientists Ch3, Sulliivan Ch1
+[A/B Testting](.)  
+[Hypothesis Testing](statistics/hypothesis-testing.md)  
+[Resampling](.)  
+[Significance](.)  
+[t-Tests](.)  
+[Degrees of Freedom](.)
+[ANOVA](.)  
+[Chi-Squared Test](.)  
+[Power and Sample Size](.)
+### Data Sampling
+[Sample Bias](.)
+[Selection Bias](.)
+[Bootstrap](.)
+[Normal Distribution](.)
+[t-Distribution](.)  
+[Binomial Distribution](.)  
+[F-Distribution](.)  
+[$\chi^2$ Distribution](.)  
+[Common Distributions](statistics/distributions.md)  
 
-## Machine Learning 
+
+[Correlation](.)  
+[Probability](.)  --Sullivan Ch 5   
+[Summarising Data](.)  --Sullivan Ch3  
+[Parameter Estimation](.)  --Sullivan Ch 9
+
+## Data Engineering  
+[Data Structures](data-engineering/data-structures.md)  
+[Document Model](data-engineering/document-model.md)  
+[Partitioning](data-engineering/partitioning.md)  
+[Replication](data-engineering/replication.md)  
+[Storage](data-engineering/storage.md)  
+
+### Cloud  
+[Kubernetes](data-engineering/containers/kubernetes.md)  
+
+## Machine Learning  
+[Metrics](machine-learning/metrics.md)  
+[Data Cleaning](machine-learning/data-cleaning.md)  
+[Dimensionality Reduction](machine-learning/dim-reduction.md)  
+[Feature Engineering](machine-learning/feature-engineering.md)  
+[Feature Selection](machine-learning/feature-selection.md)
+[Sampling Methods](machine-learning/sampling-methods.md)  
+[Loss Functions](machine-learning/loss-functions.md)  
+[Model Selection](machine-learning/model-selection.md)  
+[Linear Algebra](machine-learning/linear-algebra.md)  
+
+### Specific Areas  
+[Recommender Systems](machine-learning/recommender.md)  
+[Time-Series](machine-learning/time-series.md)  
+[Anomaly Detection](machine-learning/anomaly-detection.md)  
+
 ### Optimization Methods  
 [Differential vs Non-Differential](.)  
 [Gradient Descent](.)   

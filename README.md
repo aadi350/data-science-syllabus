@@ -32,6 +32,6 @@ This is a collection of topics, resources and otherwise useful resources I found
 
 # Sections to Update
 - [ ] Anomaly detection should be organised into general background and common algorithms machine-learning/anomaly-detection
-- [ ] Assumptions, intuition for logistic regression machine-learning/algorithms/logistic-regression  
+- [x] Assumptions, intuition for logistic regression machine-learning/algorithms/logistic-regression  
 - [ ] Assumptions, intution for SVM machine-learning/algorithms/svm
 - [ ] Complete storage and replication from DA in data-engineering/

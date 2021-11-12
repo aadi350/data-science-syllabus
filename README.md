@@ -39,6 +39,13 @@ This is a collection of topics, resources and otherwise useful resources I found
 # Data Science Syllabus 
 
 ## SQL Patterns  
+[Constraints](sql-patterns/constraints.md)  
+[Common-Table Expressions](sql-patterns/ctes.md)  
+[Cursors](sql-patterns/cursors.md)  
+[Group-by-Aggregate](sql-patterns/group-by-agg.md)  
+[Having-vs-Where](sql-patterns/having-vs-where.md)  
+[Joins](sql-patterns/joins.md)  
+[Triggers](sql-patterns/triggers.md)  
 [Cumulative Sum](sql-patterns/cumsum.md)  
 [Having vs Where](sql-patterns/having-vs-where.md)  
 [Partitioning](sql-patterns/partitioning.md)  

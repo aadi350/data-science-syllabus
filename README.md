@@ -35,3 +35,16 @@ This is a collection of topics, resources and otherwise useful resources I found
 - [x] Assumptions, intuition for logistic regression machine-learning/algorithms/logistic-regression  
 - [ ] Assumptions, intution for SVM machine-learning/algorithms/svm
 - [ ] Complete storage and replication from DA in data-engineering/
+
+# Data Science Syllabus 
+
+## SQL Patterns  
+[Cumulative Sum](sql-patterns/cumsum.md)  
+[Having vs Where](sql-patterns/having-vs-where.md)  
+[Partitioning](sql-patterns/partitioning.md)  
+
+## Code Snippets
+[Numpy](code-snippets/numpy.md)  
+[cuDF](.)  
+[TensorFlow](.)  
+[Python](.)

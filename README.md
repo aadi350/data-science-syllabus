@@ -116,9 +116,12 @@ This is a collection of topics, resources and otherwise useful resources I found
 [Having-vs-Where](sql-patterns/having-vs-where.md)  
 [Joins](sql-patterns/joins.md)  
 [Triggers](sql-patterns/triggers.md)  
-[Cumulative Sum](sql-patterns/cumsum.md)  
 [Having vs Where](sql-patterns/having-vs-where.md)  
 [Partitioning](sql-patterns/partitioning.md)  
+
+[Window Functions](.)  
+[Subqueries in SQL](.) --mode.com  
+[Performance Tuning SQL Queries](.) --mode.com  
 
 ## Code Snippets
 [Numpy](code-snippets/numpy.md)  

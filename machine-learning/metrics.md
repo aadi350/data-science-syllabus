@@ -44,3 +44,13 @@ Optimize for specificity when we don't want any false alarms (false positives)
 ### Harmonic Mean  
 $$\frac{2TP}{2TP + FP + FN}$$  
 Best when class distribution is uneven, or weighting of false negatives and false positives are different
+
+---
+
+### Odds
+
+### Log-Odds Ratio
+
+### Cross-Entropy  
+
+### Silhoutte Values

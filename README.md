@@ -14,15 +14,8 @@ This is a collection of topics, resources and otherwise useful resources I found
 [ANOVA](.)  
 [Chi-Squared Test](.)  
 [Power and Sample Size](.)
-### Data Sampling
-[Sample Bias](.)  
-[Selection Bias](.)  
-[Bootstrap](.)  
-[Normal Distribution](.)  
-[t-Distribution](.)  
-[Binomial Distribution](.)   
-[F-Distribution](.)  
-[$\chi^2$ Distribution](.)   
+
+[Data Sampling](statistics/data-sampling.md)
 [Common Distributions](statistics/distributions.md)   
 
 

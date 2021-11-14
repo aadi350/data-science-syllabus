@@ -1,6 +1,25 @@
 # Sample  
 Subset of data from a larger set called the population  
 
+## Inferential Statistics 
+#### Standard Deviation
+Indicates the level of dispersion of the mean, or how accurately the mean represents the sample  data  
+$$
+\sigma = \sqrt{\frac{\sum (x_i - \bar{x})^2}{n-1}}
+$$
+
+#### Standard Error of the Mean  
+Estimate of how far sample mean is likely to be from population mean  
+$$
+\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}
+$$
+
+#### Margin of Error  
+The sample size required to obtain a $(1-\alpha)$ confidence interval for $p$ with margin-of-error $E$:
+$$
+n = \hat{p}(1-\hat{p})\left(\frac{z_{\alpha/2}}{E}\right)^2
+$$
+
 ## Random Sampling  
 Each available member of the population has the same chance of being chosen for the sample   
 

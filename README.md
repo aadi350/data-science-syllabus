@@ -16,7 +16,7 @@ This is a collection of topics, resources and otherwise useful resources I found
 [Power and Sample Size](.)
 
 [Data Sampling](statistics/data-sampling.md)
-[Common Distributions](statistics/distributions.md)   
+[Common Distributions](statistics/distributions.md)  -- Modern Engineering Statistics ch3 
 
 
 [Correlation](.)  

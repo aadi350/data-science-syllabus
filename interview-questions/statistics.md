@@ -1,17 +1,45 @@
 # Statistics
-### In what situation would you consider mean over median?    
+### In what situation would you consider mean over median?   
+The median splits the data roughly into two halves. Advantages of median:  
+- Robust to outliers, e.g. median of (121, 124, 132, 142, 171) with outlier and (142, 124, 121, 151, 132) without outlier is the same, whilst mean is not 
+- Robust to skewed distributions, general approach is to calculate both, if the mean is vastly different it could indicate highly skewed or noisy data  
+However, the mean can be used if the data distribution is symmetric and continuous
 ### How do you ineterpret the standard error of the median and mean? 
+The standard error of the mean how far the sample mean is likely to be from the true population mean, whilst the standard error of the median is the same for median. It indicates roughly by how much the sample statistics will vary from the actual population statistics, and will generally approach the population statistics as the number of samples increase.
 ### For sample size n, the margin of error is 3. How many more samples do we need to make the margin of error 0.3? 
+Formula for margin-of-error:
+$$
+E = z_{\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}
+$$
+To scale $E$ from 3 to 0.3 would require an increase in sample-size by $\sqrt{10}$ 
 
 ### What is the assumption of error in linear regression?**  
-
+- There is not a relationship between the residuals and the  variable; in other words,  is independent of errors. Check this assumption by examining a scatterplot of “residuals versus fits”; the correlation should be approximately 0. In other words, there should not look like there is a relationship.  
+- The residuals must be approximately normally distributed. Check this assumption by examining a normal probability plot; the observations should be near the line. You can also examine a histogram of the residuals; it should be approximately normally distributed.  
+ 
 ### Given data from two product campaigns, how could you do an A/B test if we see a 3% increase for one product?
+Pick one variable to test, in this case it would be the $3\%$ increase *(clarify what type of increase, or increase in what specific metric)*.  Create a control and a challenger, which changes (two different product campaigns), and split the sample groups equally and randomly. Determine how significant these results have to be, for a smaller increase, we want higher confidence level, since at such a small level of increase, random variance may play a larger part in the test. Our null hypothesis is our intervention (the challenger) having a positive effect (or a negative effect no larger than a margin).  
+Statistical significance is calculated by simulating assignments of both campaigns randomly to conversions for a large number of simulations, and comparing the distribution of these conversions to the actual conversions rate.
 
 ### I have a deck and take one card at random. What is the probability you guess it right?  
-### Explain a probability distribution that is not normal and how to apply that.
-### Given uniform distributions X and Y and the mean 0 and standard deviation 1 for both, what’s the probability of 2X > Y? (Solution)
-### There are four people in an elevator and four floors in a building. What’s the probability that each person gets off on a different floor?
-Make an unfair coin fair. (Solution)
+$$
+\frac{1}{52}
+$$
+
+### Explain a probability distribution that is not normal and how to apply that.  
+*See [Distributions](../statistics/distributions.md)
+
+### Given uniform distributions X and Y and the mean 0 and standard deviation 1 for both, what’s the probability of 2X > Y?  
+Informal method, $2X \in [-2a, 2a]$ and $Y\in[-a, a]$. Probability is $\frac{1}{}$
+
+### There are four people in an elevator and four floors in a building. What’s the probability that each person gets off on a different floor?  
+This is a basic permutation/counting question:
+$$
+\frac{\text{Number of ways for 4 people to get off on 4 floors}}{\text{Number of ways each passenger can get off the elevator}} = \frac{5C1\cdot 4C1\cdot 3C1\cdot 2C1 \cdot 1C1}{5\cdot 5\cdot5\cdot5\cdot5}
+$$
+
+#### Make an unfair coin fair 
+Mathematician John von Neumann is credited with figuring out how to take a biased coin (whose probability of coming up heads is p, not necessarily equal to 0.5) and “simulate” a fair coin. Simply flip the coin twice. If it comes up heads both times or tails both times, then flip it twice again. Eventually, you’ll get two different flips — either a heads and then a tails, or a tails and then a heads, with each of these two cases equally likely. Once you get two different flips, you can call the second of those flips the outcome of your “simulation.”
 
 
 **What is an example of a data type with non-Gaussian distribution**  
@@ -51,7 +79,7 @@ P(exactly two variables > 3) * 3 + P(all three variables >3)
 This first card you draw can be whatever, so it does not impact the result other than that there is one card less left in the deck. Once the first card is drawn, there are three remaining cards in the deck that can be drawn to get a pair. So, the chance of matching your first card with a pair is 3 out of 51 (remaining cards). This means that the probability of this event occurring is 3/51 or 5.89%.
 
 **In any 15-minute interval, there is a 20% probability that you will see at least one shooting star. What is the probability that you see at least one shooting star in the period of an hour?**  
-1 - P(Not seeing any star) = $1 - (0.8)^2 = 0.5904$
+1 - P(Not seeing any star) = $1 - (0.8)^4 = 0.5904$
 
 **How can you generate a random number between 1 – 7 with only a die?**  
 Any die has six sides from 1-6. There is no way to get seven equal outcomes from a single rolling of a die.

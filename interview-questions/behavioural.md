@@ -145,6 +145,12 @@ I'm really grateful for the opportunity to interview today and excited to learn 
 - What qualities will it take to achieve your future goals?
 
 ### Tell me about a time you made a mistake at work?  
+*The time I accidentally broke APEX by editing a plugin*  
+**S** - developing a file-upload plugin for the system  
+**T** - allowing mutiple file-uploads using a single window  
+**A** - I accidentally edited a JavaScript field which brought down the editing environment, no VC in Apex and I was following 3rd part documentation  
+**R** - I learnt that using 3rd part extensions, even if the documentation says it, do a quick Google search before just to be sure  
+
 
 ### Tell me about a time you had to make a challenging decision
 

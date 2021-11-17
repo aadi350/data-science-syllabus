@@ -5,15 +5,9 @@ This is a collection of topics, resources and otherwise useful resources I found
 ## Statistics  
 ### Experimental Tests 
 --Practical Statistics for Data Scientists Ch3, Sulliivan Ch1
-[A/B Testting](.)  
-[Hypothesis Testing](statistics/hypothesis-testing.md)  
-[Resampling](.)  
-[Significance](.)  
-[t-Tests](.)  
-[Degrees of Freedom](.)
-[ANOVA](.)  
-[Chi-Squared Test](.)  
-[Power and Sample Size](.)
+[A/B Testting](statistics/experiments/abtesting.md)  
+[Hypothesis Testing](statistics/experiments/hypothesis-testing.md)  
+[Multi-Arm Bandit](.)
 
 [Data Sampling](statistics/data-sampling.md)
 [Common Distributions](statistics/distributions.md)  -- Modern Engineering Statistics ch3 

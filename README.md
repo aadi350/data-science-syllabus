@@ -62,6 +62,7 @@ This is a collection of topics, resources and otherwise useful resources I found
 
 ## SQL Patterns  
 [Constraints](sql-patterns/constraints.md)  
+[Pivot Tables](sql-patterns/pivot.md)
 [Common-Table Expressions](sql-patterns/ctes.md)  
 [Cursors](sql-patterns/cursors.md)  
 [Group-by-Aggregate](sql-patterns/group-by-agg.md)  

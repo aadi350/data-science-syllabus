@@ -153,7 +153,6 @@ I'm really grateful for the opportunity to interview today and excited to learn 
 
 
 ### Tell me about a time you had to make a challenging decision
-
 ### What’s the Most Difficult Decision You’ve Had to Make? 
 - To get an idea of confidence and the thought process  
 - Making hard decisions should be considering all feasible options as well as future outcomes, non-impulsive, based off of collaboration with coworkers and decisive
@@ -223,4 +222,4 @@ Discuss solving a problem in an actionable way as something you enjoy, learning 
 
 ### Tell me about a time when you had to convince others to take your position on a specific matter. What was the outcome?
 *The intent is to find out how good are you at defending your position and your ability to make change within a team*  
-Try to find an example where you were successful at making the change and then discuss how the change was quantifiable in its impact. If possible, use a machine learning or AI example. It’s important that you demonstrate your communication and leadership skills here. Bottom line is, you want to describe a situation that was happening as normal, a trigger event or complication that messed things up, and then how you pushed the team to come to resolution. This will show that you don't simply react instinctually, but that you think about how to solve problems.
+Try to find an example where you were successful at making the change and then discuss how the change was quantifiable in its impact. If possible, use a machine learning or AI example. It’s important that you demonstrate your communication and leadership skills here. Bottom line is, you want to describe a situation that was happening as normal, a trigger event or complication that messed things up, and then how you pushed the team to come to resolution. This will show that you don't simply react instinctually, but that you think about how to solve problems. 

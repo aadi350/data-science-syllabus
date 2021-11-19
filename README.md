@@ -78,6 +78,7 @@ This is a collection of topics, resources and otherwise useful resources I found
 
 ## Code Snippets
 [Numpy](code-snippets/numpy.md)  
+[Pandas](code-snippets/pandas.md)
 [cuDF](.)  
 [TensorFlow](.)  
 [Python](.)

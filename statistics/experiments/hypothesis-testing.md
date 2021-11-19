@@ -167,6 +167,8 @@ Statistic is number of times that measurements for population A exceeds B, remov
 Testing to see probability of rejection exceeding not equal to 0.5, since we expect on average, half of the A's measurements to exceed B
 
 # One-Way ANOVA  
+> Finds a statistical difference between multiple groups  
+The null hypothesis assumes that there is no difference between different treatment groups, where differences in group averages are due to the random way in which a common set of results got allocated  
 $$
 F_0 = \frac{\text{Between-sample variability}}{\text{Within-sample variability}}
 $$

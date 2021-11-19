@@ -31,9 +31,9 @@ Used to determine the significance of predictors
 
 
 <h2 style="color:#00A">Assumptions</h2>  
-- Observations are independent  
-- Little to no multicollinearity 
-- Linear relation between log-odds and the independent variable
+- Observations are independent   
+- Little to no multicollinearity  
+- Linear relation between log-odds and the independent variable  
 
 
 <h2 style="color:#0A0">Advantages</h2>  

@@ -11,6 +11,10 @@
     - [Why do you want to work here?](#why-do-you-want-to-work-here)
     - [Tell me about a time you made a mistake at work?](#tell-me-about-a-time-you-made-a-mistake-at-work)
     - [Tell me about a time you had to make a challenging decision](#tell-me-about-a-time-you-had-to-make-a-challenging-decision)
+    - [Tell me about a time when you were in conflict with a peer and how the situation was resolved](#tell-me-about-a-time-when-you-were-in-conflict-with-a-peer-and-how-the-situation-was-resolved)
+    - [Tell Me how you word under pressure?](#tell-me-how-you-word-under-pressure)
+    - [Give me an example of how you set goals](#give-me-an-example-of-how-you-set-goals)
+    - [Tell me about a goal you set and reached and how you achieved it](#tell-me-about-a-goal-you-set-and-reached-and-how-you-achieved-it)
     - [What’s the Most Difficult Decision You’ve Had to Make?](#whats-the-most-difficult-decision-youve-had-to-make)
     - [Why should we hire you?](#why-should-we-hire-you)
     - [What should your salary look like?](#what-should-your-salary-look-like)
@@ -152,7 +156,33 @@ I'm really grateful for the opportunity to interview today and excited to learn 
 **R** - I learnt that using 3rd part extensions, even if the documentation says it, do a quick Google search before just to be sure  
 
 
-### Tell me about a time you had to make a challenging decision
+### Tell me about a time you had to make a challenging decision  
+*OR asking about making a mistake, an unpopular decision, a failed goal, etc*  
+The time I accidentally archived SG's emails into differently named folders:  
+**S:** SG having issues with Outlook, not receiving any emails  
+**T:** Looked at computer, decided that archiving everything past the previous 30 days was necessary, accidentally archived all her email inboxes into a single contiguos archive  
+**A:** Took more time than necessary, was up-front about it, made sure she had the time available to do so, and manually set up back her archival structure  
+**R:** learnt from that data the importance of data structure/schemas, learnt that from a big-picture, always take how data is laid out in context, and be highly considerate of the end-user  
+
+### Tell me about a time when you were in conflict with a peer and how the situation was resolved  
+*Show that I'm a good listener, actively readjust during conflict, which means I strive to readjust to the other's POV without becoming defensive*  
+The time I disagreed with presentation content for 6181, to the point where my work was becoming less effective and not even necessary, I voiced my opinion in a calm and polite way, and he said he was also flustered do to time pressure. For the remaining few days, we worked more co-operatively to get the presentation done.   
+
+
+### Tell Me how you word under pressure?  
+*specific examples of how I managed a high-stree situation effectively*  
+**S:** a course project's deadline was shifted a week earlier, which in the context of a four-week project was almost 1/4 of the time  
+**T:** We had to remove some extra detail which we had previously agreed upon, and personally I shifted some other work for the same course to now occur after the presentation 
+**A:** we ended up presenting on time  
+**R:**  
+
+### Give me an example of how you set goals  
+Quarterly, weekly, daily plan, time-blocking, alignment with career oppurtunities, choosing projects with impact  
+
+### Tell me about a goal you set and reached and how you achieved it  
+Broken down into weekly goals, and researched how other entities would have carried out the like. A/B testing, task prioritization, etc  
+
+
 ### What’s the Most Difficult Decision You’ve Had to Make? 
 - To get an idea of confidence and the thought process  
 - Making hard decisions should be considering all feasible options as well as future outcomes, non-impulsive, based off of collaboration with coworkers and decisive

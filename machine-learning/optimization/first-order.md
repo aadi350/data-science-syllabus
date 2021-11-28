@@ -1,5 +1,7 @@
-# Gradient Descent  
+# First Order Methods 
 *Source: [Algorithms for Optimization](https://algorithmsbook.com/optimization/files/optimization.pdf)  
+
+> Relies on gradient information to directly minimize a function
 
 ## Assumptions  
 - Objective function is smooth

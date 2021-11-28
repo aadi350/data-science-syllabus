@@ -45,10 +45,9 @@ This is a collection of topics, resources and otherwise useful resources I found
 [Anomaly Detection](machine-learning/anomaly-detection.md)  
 
 ### Optimization Methods  
-[Differential vs Non-Differential](.)  
-[Gradient Descent](machine-learning/optimization/gradient-descent)   
-[Simulated Annealing](.)  
-
+[Bracketing](machine-learning/optimization/bracketing.md)  
+[First-Order](machine-learning/optimization/first-order.md)
+[Stochastic](machine-learning/optimization/stochastic.md)
 
 ### Algorithms  
 [Artificial Neural Networks](machine-learning/algorithms/ann.md)  

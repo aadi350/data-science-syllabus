@@ -46,7 +46,7 @@ This is a collection of topics, resources and otherwise useful resources I found
 
 ### Optimization Methods  
 [Differential vs Non-Differential](.)  
-[Gradient Descent](.)   
+[Gradient Descent](machine-learning/optimization/gradient-descent)   
 [Simulated Annealing](.)  
 
 

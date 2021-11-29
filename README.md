@@ -15,7 +15,7 @@ This is a collection of topics, resources and otherwise useful resources I found
 
 [Correlation](.)  
 [Probability](statistics/probability.md)   
-[Summarising Data](.)  --Sullivan Ch3  
+[Summarising Data](statistics/summarising-data.md)  --Sullivan Ch3  
 [Parameter Estimation](.)  --Sullivan Ch 9
 
 ## Data Engineering  

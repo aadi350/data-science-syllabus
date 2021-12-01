@@ -31,7 +31,11 @@ Use when false negatives are of less concern, or we want to be incredibly sure o
 
 
 ### Recall/Sensitivity 
-$$\frac{TP}{TP + FN}$$  
+$$
+\frac{TP}{TP + FN} = \frac{TP}{P}
+$$  
+
+
 When a false-negative is a life-or-death situation, and you can tolerate false-positives  
 *e.g. cancer prediction*
 

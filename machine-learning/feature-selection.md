@@ -3,25 +3,52 @@ Justification for feature selection:
 1. Prediction accuracy: can be improved by shrinking or setting features to zero, reducing variance but increasing bias
 2. Interpretation: more full appreciate big-picture effects of features 
    
+# Intrinsic Methods
+Includes feature-selection in the algorithm
+
+### Tree- and Rule-Based  
+Best split point is found from multiple features, if no split is found for a predictor, is it functionally independent and excluded 
+
+### Multivariate Adaptive Regression Splines  
+Creates new features that include one or two features at a time and added to a linear model in sequence  
+
+### Regularization  
+Lasso regularization penalizes predictor coefficients to improve model fit, shrinking coefficients to absolute zero 
+ 
+| Advantages | Disadvantages |  
+| --- | --- |
+| Fast | Model-dependent |
+| Direct connection between selecting features and objective function | A non-intrinsic model may perform better |  
+
 # Filter Methods
-Filtering techniques preprocess features to remove ones that are unlikely to be useful for the model. For example, one could compute the correlation or mutual information between each feature and the response variable, and filter out the features that fall below a threshold. These are typically faster, but more subjective than wrapper methods. 
+Assesses merit of features from data alone, without actually running the model  
 
-## Numeric Outcomes
-### Sample Correlation  
-Quantifies linear (Pearson's) or curved (Spearman's) correlation coefficient  
+| Advantages | Disadvantages |  
+| --- | --- |  
+| Fast | Prone to over-selecting |  
+| | May be a difference between objective model performance and statistical feature significance |  
 
-### $t$ Statistic
-Assumes normal distribution, p-value represennts significance  
+## Examples  
+- **Pearson's $R$** 
+- **ANOVA**  
+- **Chi-squared**  
+- Mutual Information  
 
-## Categorical Data  
+### Categorical Data  
 - Test if mean coefficients per class are different 
 - One-vs-all ROC/AUC comparisons
 - Maximal Information Coefficient gives strength of the linear and non-linear association between two variables X and Y.
 
 # Wrapper Methods
-Search algorithms that treat predictors as inputs and model performance as outputs 
+Algorithm repeatedly run on dataset using feature subsets, which are evaluated using some metric 
 
-- Does not use previous data, adding new predictors does not re-evaluate adding previous predictors
+| Advantages | Disadvantages |  
+| --- | --- |  
+| Directly related to objective function of algorithm | Excessive computational complexity |  
+| Searched wider variety of predictors |  Highest potential to overfit|  
+| Can find globally optimal feature set |  |
+
+
 ## Forward, Backward and Stepwise  
 *Forward:* predictors added one-by-one and model evaluated 
 *Backward:* Full model incrementally stripped of predictors
@@ -33,7 +60,3 @@ An initial subset of predictors is selected and is used to estimate performance 
 ## Genetic Methods  
 A chromosome is a binary vector with length equal to number of features. Each binary entry represents presence or absence of feature, the "fitness" of a method is determined by the metric using the predictors. To begin the search process, GAs are often initiated with a random selection of chromosomes from the population of all possible chromosomes. Each chromosome’s fitness is computed, which determines the likelihood of the chromosome’s selection for the process of reproduction. Two chromosomes from the current population are then selected based on the fitness criterion and are allowed to reproduce. In the reproduction phase, the two parent chromosomes are split at a random position (also called loci), and the head of one chromosome is combined with the tail of the other chromosome and vice versa. After crossover, the individual entries of the new chromosomes can be randomly selected for mutation in which the current binary value is changed to the other value.
 
-**Embedded Methods**  
-These methods perform feature selection as part of the model training process.
-For example, a decision tree inherently performs feature selection because it
-selects one feature on which to split the tree at each training step

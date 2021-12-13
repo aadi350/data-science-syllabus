@@ -1,7 +1,45 @@
 # Data Science Syllabus
-This is a collection of topics, resources and otherwise useful resources I found (am finding) during pursuit of my graduate degree in Data Science. This list may not be completely exhaustive, and I am going to miss some niche things, however this is what I'd consider a ground zero for covering important topics in data science.
+*The foundations of this constitute a 3-month plan in preparation for interviews, and follow Jeff-Li's structure and four main areas of what an ideal data scientist should be able to do*  
+## Technical 
+> Is able to apply advanced techniques/concepts to multiple problems whilst writing elegant re-producable code, including their own packages
 
-# Data Science Syllabus  
+## Independent 
+> Is paired with a Junior DS to mentor, with strong knowledge of multiple areas and captures synergies between the business
+
+## Problem Formulation
+> Develops the project roadmap to hit goals set by executive teams
+
+## Influence 
+> Partners with Project Managers on areas of expertise, is able to work to contribute to the project roadmap
+
+# Current Assessment 
+In order to move forward, I need to perform gap analysis on my current skills, moving forward quickly and iterating on each of the above four. I will find my weakest areas, which will allow me to develop a plan that fills these gaps 
+
+Each area has points with areas for improvement, and "drills" designed to improve the given area.
+
+### Technical Skills
+| Area for Improvement | Drill |
+| --- | --- | 
+| My code is slow, especially for parameter optimization | | 
+
+### Influence
+| Area for Improvement | Drill |
+| --- | --- |
+| I have no clue about my current field | Read/make notes about credit risk modeling 1h every day |
+
+### Problem Formulation
+| Area for Improvement | Drill |
+| --- | --- |
+| | |
+
+### Independence
+| Area for Improvement | Drill |
+| --- | --- |
+| I don't know how to correspond to flesh out information from business partners | |
+
+
+# Directory of Files 
+This is a collection of topics, resources and otherwise useful resources I found (am finding) during pursuit of my graduate degree in Data Science. This list may not be completely exhaustive, and I am going to miss some niche things, however this is what I'd consider a ground zero for covering important topics in data science.
 ## Statistics  
 ### Experimental Tests 
 --Practical Statistics for Data Scientists Ch3, Sulliivan Ch1
